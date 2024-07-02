@@ -5,9 +5,9 @@
         branch hotfix
         branch develop order: 1
         checkout develop
+        commit
         branch feature order: 2
         commit
-        checkout main
         checkout hotfix
         commit type:NORMAL
         checkout main
