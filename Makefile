@@ -25,10 +25,10 @@ up-tk:						## Levanta el contenedor del proxy inverso, traefik
 	$(CDTK) && docker compose up -d
 
 up:							## Levanta la imagen de suricata y mantiene el stdout por pantalla
-	docker run -d --rm -it --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice -v $(shell pwd)/suricata/log:/var/log/suricata $(IMAGE):$(IMG_VER) -i $(INTER)
+	docker run --rm -it --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice $(IMAGE):$(IMG_VER) -i $(INTER)
 
 up-d:						## Levanta la iamgen de suricata y deja libre la terminal
-	docker run -d --rm -it --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice $(IMAGE):$(IMG_VER) -i $(INTER)
+	docker run -d --rm -it --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice -v $(shell pwd)/suricata/log:/var/log/suricata $(IMAGE):$(IMG_VER) -i $(INTER)
 
 exec:						## Ingresamos por ssh a la imagen de suricata
 	docker exec -ti $(IMAGEID) /bin/bash
