@@ -1,0 +1,11 @@
+# attrs
+# injector
+# dependency-injector
+Flask
+Flask-Injector
+flask_sqlalchemy
+Flask-Migrate
+SQLAlchemy
+psycopg2
+# PyYAML
+RouterOS-api
