@@ -1,0 +1,58 @@
+x-networks: &networks
+  networks:
+    - proxy
+    - default
+
+networks:
+  proxy:
+    external: true
+  default:
+    external: false
+
+services:
+  backend:
+    build:
+      context: ../
+      dockerfile: Docker/python/Dockerfile
+      args:
+        - PYTHON_VERSION=${PYTHON_VERSION}
+    tty: true
+    container_name: ${PYTHONCONTAINER}
+    working_dir: ${WORKDIR}
+    environment:
+      - TZ=Europe/Madrid
+      - ROUTER_HOST=${ROUTEROS_HOST}
+      - ROUTEROS_USER=${ROUTEROS_USER}
+      - ROUTEROS_PASS=${ROUTEROS_PASS}
+      - SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_SERVICE}:5432/${POSTGRES_DB}
+      - SQLALCHEMY_DATABASE_URI_TESTING=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_SERVICE}:5432/${POSTGRES_DB}_testing
+    volumes:
+      - ${ROOT}/app:/app
+      - ${ROOT}/config:/config
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${PYTHONCONTAINER}.rule=Host(`${PYTHONCONTAINER}.${DOMAIN}`)"
+      - traefik.backend=${PYTHONCONTAINER}
+      - traefik.docker.network=proxy
+    <<: *networks
+  postgres:
+    image: 'postgres:latest'
+    restart: unless-stopped
+    container_name: ${POSTGRESCONTAINER}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${POSTGRESCONTAINER}.rule=Host(`${POSTGRESCONTAINER}.${DOMAIN}`)"
+      - traefik.docker.network=proxy
+    <<: *networks
+    ports:
+      - '5432:5432'
+
+volumes:
+  pgdata:
+    driver: local
