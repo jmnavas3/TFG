@@ -17,7 +17,6 @@ RUNUP 	= --force-recreate --remove-orphans
 RUNUPD 	= --force-recreate -d --remove-orphans
 CDDK 	= cd Docker
 CDIDS 	= cd Docker/suricata
-CDTK	= cd Docker/traefik
 
 # variables IDS
 INTER			?= eth0
@@ -67,28 +66,14 @@ info-ids:					## Ejemplo para ejecutar suricata en una interfaz de red
 install-ids:				## Instala la imagen de suricata
 	docker pull $(IDS_IMG_NAME)
 
-up-ids:						## Levanta la imagen de suricata y mantiene el stdout por pantalla
-	docker run --rm -it --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
+up-ids:						## Levanta la imagen de suricata, obtiene la configuración y mantiene el stdout por pantalla
+	docker run --rm -it --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice -v $(shell pwd)/app/suricata/etc/:/etc/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
 
-up-ids-d:					## Levanta la iamgen de suricata y deja libre la terminal
-	docker run -d --rm -it --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice -v $(shell pwd)/Docker/suricata/log:/var/log/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
+up-ids-d:					## Levanta la imagen de suricata y deja libre la terminal
+	docker run -itd --rm --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice -v $(shell pwd)/app/suricata/log:/var/log/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
 
-exec-ids:					## Ingresamos por ssh a la imagen de suricata
+exec-ids:					## Ingresamos a la imagen de suricata
 	docker exec -ti $(IDS_IMG_ID) /bin/bash
 
 stop-ids:					## Paramos la imagen de suricata
 	docker stop $(IDS_IMG_ID)
-
-
-#---------- PROXY INVERSO (traefik) ----------
-build-tk:					## Construye el contenedor de traefik
-	$(CDTK) && docker compose build
-
-up-tk:						## Levanta el contenedor de traefik
-	$(CDTK) && docker compose up -d
-
-stop-tk:					## Paramos el contenedor de traefik
-	$(CDTK) && docker compose stop
-
-down-tk:					## Destruye el contenedor de traefik
-	$(CDTK) && docker compose down -v --remove-orphans
