@@ -1,0 +1,825 @@
+Fecha, Identificador, Prioridad, Protocolo, Origen, Destino, Alerta, Clasificacion
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.699809, 1:2221028:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.699755, 1:2221028:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.700188, 1:2260005:1, 3, TCP, 192.168.65.1:44907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700158, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700210, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:46479, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.700499, 1:2260005:1, 3, TCP, 192.168.65.1:46479, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.712728, 1:2221028:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.712810, 1:2221028:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.713244, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713250, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713253, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713256, 1:2260005:1, 3, TCP, 192.168.65.1:43363, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.713258, 1:2260005:1, 3, TCP, 192.168.65.1:47792, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.929892, 1:2221028:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/03/2024-18:42:26.930163, 1:2260005:1, 3, TCP, 192.168.65.1:45458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/03/2024-18:42:26.974176, 1:2221028:1, 3, TCP, 192.168.65.1:35614, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621580, 1:2221028:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621534, 1:2221028:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.621862, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.621856, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622096, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:41120, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622119, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57237, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622455, 1:2260005:1, 3, TCP, 192.168.65.1:41120, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.622438, 1:2260005:1, 3, TCP, 192.168.65.1:57237, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.693914, 1:2221028:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694282, 1:2221028:1, 3, TCP, 192.168.65.1:40330, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.694346, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694437, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694464, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.694473, 1:2260005:1, 3, TCP, 192.168.65.1:42046, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.907583, 1:2221028:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.907969, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908042, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908204, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.908222, 1:2260005:1, 3, TCP, 192.168.65.1:27243, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:43:56.984171, 1:2221028:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:43:56.984636, 1:2260005:1, 3, TCP, 192.168.65.1:65535, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:50:28.206638, 1:2013028:7, 2, TCP, 192.168.65.3:39890, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:50:28.207319, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:39890, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:51:57.887854, 1:2013028:7, 2, TCP, 192.168.65.3:35248, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:51:57.888455, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:35248, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-16:58:56.637742, 1:2221028:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.637803, 1:2221028:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.638141, 1:2260005:1, 3, TCP, 192.168.65.1:42561, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638125, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638136, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47486, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.638637, 1:2260005:1, 3, TCP, 192.168.65.1:47486, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.650250, 1:2221028:1, 3, TCP, 192.168.65.1:48010, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709256, 1:2221028:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.709619, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709724, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.709751, 1:2260005:1, 3, TCP, 192.168.65.1:54910, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.802627, 1:2221028:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.803057, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.803061, 1:2260005:1, 3, TCP, 192.168.65.1:43767, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:58:56.860980, 1:2221028:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-16:58:56.861393, 1:2260005:1, 3, TCP, 192.168.65.1:58305, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-16:59:03.180823, 1:2013028:7, 2, TCP, 192.168.65.3:44106, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+07/04/2024-16:59:03.181336, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:44106, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+07/04/2024-17:58:56.663611, 1:2221028:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663649, 1:2221028:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.663975, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.663991, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664126, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:57094, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664097, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64029, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664543, 1:2260005:1, 3, TCP, 192.168.65.1:57094, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.664523, 1:2260005:1, 3, TCP, 192.168.65.1:64029, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677325, 1:2221028:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677389, 1:2221028:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.677668, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677729, 1:2260005:1, 3, TCP, 192.168.65.1:43858, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677710, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677725, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.677734, 1:2260005:1, 3, TCP, 192.168.65.1:31154, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.706785, 1:2221028:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.707199, 1:2260005:1, 3, TCP, 192.168.65.1:43483, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756379, 1:2221028:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-17:58:56.756743, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.756986, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757014, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-17:58:56.757022, 1:2260005:1, 3, TCP, 192.168.65.1:31402, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.664701, 1:2221028:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.664746, 1:2221028:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.665152, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665159, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665367, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:22890, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665388, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:48070, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665771, 1:2260005:1, 3, TCP, 192.168.65.1:22890, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.665750, 1:2260005:1, 3, TCP, 192.168.65.1:48070, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679494, 1:2221028:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679546, 1:2221028:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.679890, 1:2260005:1, 3, TCP, 192.168.65.1:49995, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.679894, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680117, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680122, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.680125, 1:2260005:1, 3, TCP, 192.168.65.1:46768, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.842488, 1:2221028:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.842894, 1:2260005:1, 3, TCP, 192.168.65.1:21338, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905067, 1:2221028:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+07/04/2024-18:13:56.905475, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905579, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905616, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+07/04/2024-18:13:56.905626, 1:2260005:1, 3, TCP, 192.168.65.1:39339, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode

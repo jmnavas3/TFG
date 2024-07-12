@@ -7,5 +7,5 @@ flask_sqlalchemy
 Flask-Migrate
 SQLAlchemy
 psycopg2
-# PyYAML
+PyYAML
 RouterOS-api
