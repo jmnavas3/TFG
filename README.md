@@ -6,4 +6,4 @@ Trabajo de Fin de Grado realizado por José María Navas Cabrera para la carrera
 ___
 
 
-Flujo de trabajo a seguir [gitflow](doc/gitflow.md)
+Flujo de trabajo a seguir [gitflow](misc/gitflow.md)
