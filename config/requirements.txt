@@ -1,5 +1,5 @@
 # attrs
-# injector
+injector
 # dependency-injector
 Flask
 Flask-Injector
