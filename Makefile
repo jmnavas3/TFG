@@ -23,6 +23,7 @@ INTER			?= eth0
 IDS_IMG_NAME	= "jasonish/suricata"
 IDS_IMG_ID		=$(shell docker ps | grep "jasonish" | grep -Eo "^[[:alnum:]]{12}")
 IDS_IMG_VER		= 7.0.6
+SCRIPTS			= ./app/backend/scripts
 
 
 
@@ -67,10 +68,23 @@ install-ids:				## Instala la imagen de suricata
 	docker pull $(IDS_IMG_NAME)
 
 up-ids:						## Levanta la imagen de suricata, obtiene la configuración y mantiene el stdout por pantalla
-	docker run --rm -it --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice -v $(shell pwd)/app/suricata/etc/:/etc/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
+	docker run --rm -itd --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice -v ./app/suricata/log/:/var/log/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
+
+up-rules:
+	docker run -itd --rm --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice -v ./app/suricata/rules:/var/lib/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
+	docker cp $(SCRIPTS)/my_script.sh suricata:/
+	docker cp $(SCRIPTS)/my_cron suricata:/etc/cron.d/
+	docker exec suricata crontab /etc/cron.d/my_cron
+	docker exec suricata crond -p
 
 up-ids-d:					## Levanta la imagen de suricata y deja libre la terminal
-	docker run -itd --rm --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice -v $(shell pwd)/app/suricata/log:/var/log/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
+	docker run -itd --rm --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice -v ./app/suricata/log:/var/log/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
+
+up-cron: up-ids-d
+	docker cp $(SCRIPTS)/my_script.sh suricata:/
+	docker cp $(SCRIPTS)/my_cron suricata:/etc/cron.d/
+	docker exec suricata crontab /etc/cron.d/my_cron
+	docker exec suricata crond -p
 
 exec-ids:					## Ingresamos a la imagen de suricata
 	docker exec -ti $(IDS_IMG_ID) /bin/bash
