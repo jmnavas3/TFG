@@ -45,6 +45,7 @@ services:
     working_dir: ${WORKDIR}
     environment:
       - TZ=Europe/Madrid
+      - FLASK_APP=backend.application
       - ROUTER_HOST=${ROUTEROS_HOST}
       - ROUTEROS_USER=${ROUTEROS_USER}
       - ROUTEROS_PASS=${ROUTEROS_PASS}
