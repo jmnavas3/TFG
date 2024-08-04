@@ -1,0 +1,263 @@
+Fecha, Identificador, Prioridad, Protocolo, Origen, Destino, Alerta, Clasificacion
+08/02/2024-16:24:58.786228, 1:2013028:7, 2, TCP, 192.168.65.3:43534, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/02/2024-16:24:58.786950, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:43534, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/02/2024-16:27:20.006946, 1:2221028:1, 3, TCP, 192.168.65.1:58761, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/02/2024-16:27:20.006891, 1:2221028:1, 3, TCP, 192.168.65.1:27177, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/02/2024-16:27:20.007503, 1:2260005:1, 3, TCP, 192.168.65.1:58761, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.007590, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:58761, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.007518, 1:2260005:1, 3, TCP, 192.168.65.1:27177, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.007983, 1:2260005:1, 3, TCP, 192.168.65.1:58761, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.025591, 1:2221028:1, 3, TCP, 192.168.65.1:44876, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/02/2024-16:27:20.025782, 1:2221028:1, 3, TCP, 192.168.65.1:21045, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/02/2024-16:27:20.026041, 1:2260005:1, 3, TCP, 192.168.65.1:44876, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.268515, 1:2221028:1, 3, TCP, 192.168.65.1:37055, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/02/2024-16:27:20.268906, 1:2260005:1, 3, TCP, 192.168.65.1:37055, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.268915, 1:2260005:1, 3, TCP, 192.168.65.1:37055, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.279775, 1:2221028:1, 3, TCP, 192.168.65.1:30537, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/02/2024-16:27:20.280329, 1:2260005:1, 3, TCP, 192.168.65.1:30537, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.280348, 1:2260005:1, 3, TCP, 192.168.65.1:30537, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.280375, 1:2260005:1, 3, TCP, 192.168.65.1:30537, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/02/2024-16:27:20.280385, 1:2260005:1, 3, TCP, 192.168.65.1:30537, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.054642, 1:2221028:1, 3, TCP, 192.168.65.1:56958, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:08:13.054680, 1:2221028:1, 3, TCP, 192.168.65.1:36184, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:08:13.054966, 1:2260005:1, 3, TCP, 192.168.65.1:56958, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.054953, 1:2260005:1, 3, TCP, 192.168.65.1:36184, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.054971, 1:2260005:1, 3, TCP, 192.168.65.1:56958, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.054998, 1:2260005:1, 3, TCP, 192.168.65.1:36184, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.055248, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:56958, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.055228, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:36184, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.055682, 1:2260005:1, 3, TCP, 192.168.65.1:56958, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.055664, 1:2260005:1, 3, TCP, 192.168.65.1:36184, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.068783, 1:2221028:1, 3, TCP, 192.168.65.1:64458, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:08:13.068831, 1:2221028:1, 3, TCP, 192.168.65.1:48874, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:08:13.069267, 1:2260005:1, 3, TCP, 192.168.65.1:64458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.069219, 1:2260005:1, 3, TCP, 192.168.65.1:48874, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.069278, 1:2260005:1, 3, TCP, 192.168.65.1:64458, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.069258, 1:2260005:1, 3, TCP, 192.168.65.1:48874, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.069273, 1:2260005:1, 3, TCP, 192.168.65.1:48874, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.069282, 1:2260005:1, 3, TCP, 192.168.65.1:48874, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.100436, 1:2221028:1, 3, TCP, 192.168.65.1:26514, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:08:13.100808, 1:2260005:1, 3, TCP, 192.168.65.1:26514, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.100822, 1:2260005:1, 3, TCP, 192.168.65.1:26514, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.100850, 1:2260005:1, 3, TCP, 192.168.65.1:26514, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:08:13.106084, 1:2221028:1, 3, TCP, 192.168.65.1:40036, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:08:13.106467, 1:2260005:1, 3, TCP, 192.168.65.1:40036, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.034443, 1:2221028:1, 3, TCP, 192.168.65.1:64416, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:23:13.034491, 1:2221028:1, 3, TCP, 192.168.65.1:27789, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:23:13.034908, 1:2260005:1, 3, TCP, 192.168.65.1:27789, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.034921, 1:2260005:1, 3, TCP, 192.168.65.1:64416, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.034970, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:27789, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.034988, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:64416, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.035337, 1:2260005:1, 3, TCP, 192.168.65.1:64416, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.035355, 1:2260005:1, 3, TCP, 192.168.65.1:27789, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.048962, 1:2221028:1, 3, TCP, 192.168.65.1:22033, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:23:13.048912, 1:2221028:1, 3, TCP, 192.168.65.1:50648, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:23:13.049305, 1:2260005:1, 3, TCP, 192.168.65.1:22033, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.049302, 1:2260005:1, 3, TCP, 192.168.65.1:50648, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.191530, 1:2221028:1, 3, TCP, 192.168.65.1:62451, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:23:13.191891, 1:2260005:1, 3, TCP, 192.168.65.1:62451, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.201491, 1:2221028:1, 3, TCP, 192.168.65.1:40794, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:23:13.201835, 1:2260005:1, 3, TCP, 192.168.65.1:40794, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.201846, 1:2260005:1, 3, TCP, 192.168.65.1:40794, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:23:13.201870, 1:2260005:1, 3, TCP, 192.168.65.1:40794, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:31:48.855170, 1:2013028:7, 2, TCP, 192.168.65.3:39972, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-10:31:48.855733, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:39972, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-10:34:42.200808, 1:2013028:7, 2, TCP, 192.168.65.3:53062, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-10:34:42.201459, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:53062, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-10:38:13.057505, 1:2221028:1, 3, TCP, 192.168.65.1:23996, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:38:13.057442, 1:2221028:1, 3, TCP, 192.168.65.1:53218, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:38:13.058009, 1:2260005:1, 3, TCP, 192.168.65.1:23996, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.057836, 1:2260005:1, 3, TCP, 192.168.65.1:53218, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.058095, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:23996, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.058022, 1:2260005:1, 3, TCP, 192.168.65.1:53218, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.058375, 1:2260005:1, 3, TCP, 192.168.65.1:23996, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.058312, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:53218, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.058613, 1:2260005:1, 3, TCP, 192.168.65.1:53218, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.072546, 1:2221028:1, 3, TCP, 192.168.65.1:32907, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:38:13.072615, 1:2221028:1, 3, TCP, 192.168.65.1:26919, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:38:13.072980, 1:2260005:1, 3, TCP, 192.168.65.1:26919, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.072985, 1:2260005:1, 3, TCP, 192.168.65.1:32907, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.227399, 1:2221028:1, 3, TCP, 192.168.65.1:32493, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:38:13.237116, 1:2221028:1, 3, TCP, 192.168.65.1:18506, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-10:38:13.237458, 1:2260005:1, 3, TCP, 192.168.65.1:18506, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.237680, 1:2260005:1, 3, TCP, 192.168.65.1:18506, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.237728, 1:2260005:1, 3, TCP, 192.168.65.1:18506, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:38:13.237738, 1:2260005:1, 3, TCP, 192.168.65.1:18506, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-10:41:52.347235, 1:2013028:7, 2, TCP, 192.168.65.3:57368, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-10:41:52.347717, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:57368, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:45:02.316155, 1:2013028:7, 2, TCP, 192.168.65.3:60174, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:45:02.316757, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:60174, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:46:01.397863, 1:2013028:7, 2, TCP, 192.168.65.3:56658, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:46:01.398438, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:56658, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:47:01.778193, 1:2013028:7, 2, TCP, 192.168.65.3:59608, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:47:01.778683, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:59608, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:48:02.084003, 1:2013028:7, 2, TCP, 192.168.65.3:40304, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:48:02.084714, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:40304, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:49:01.158768, 1:2013028:7, 2, TCP, 192.168.65.3:48544, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:49:01.159439, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:48544, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:50:01.278187, 1:2013028:7, 2, TCP, 192.168.65.3:54036, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:50:01.278935, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:54036, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:51:01.724211, 1:2013028:7, 2, TCP, 192.168.65.3:34476, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:51:01.724937, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:34476, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:52:01.826681, 1:2013028:7, 2, TCP, 192.168.65.3:34274, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:52:01.827103, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:34274, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:52:11.163789, 1:2013028:7, 2, TCP, 192.168.65.3:56348, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:52:11.164382, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:56348, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:53:02.131077, 1:2013028:7, 2, TCP, 192.168.65.3:55206, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:53:02.131665, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:55206, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:53:13.085338, 1:2221028:1, 3, TCP, 192.168.65.1:39169, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-11:53:13.085402, 1:2221028:1, 3, TCP, 192.168.65.1:37840, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-11:53:13.085715, 1:2260005:1, 3, TCP, 192.168.65.1:39169, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.085701, 1:2260005:1, 3, TCP, 192.168.65.1:37840, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.085886, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:39169, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.085817, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:37840, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.086201, 1:2260005:1, 3, TCP, 192.168.65.1:39169, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.086165, 1:2260005:1, 3, TCP, 192.168.65.1:37840, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.099436, 1:2221028:1, 3, TCP, 192.168.65.1:44341, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-11:53:13.099673, 1:2221028:1, 3, TCP, 192.168.65.1:59729, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-11:53:13.099902, 1:2260005:1, 3, TCP, 192.168.65.1:44341, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.100248, 1:2260005:1, 3, TCP, 192.168.65.1:59729, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.100313, 1:2260005:1, 3, TCP, 192.168.65.1:59729, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.100321, 1:2260005:1, 3, TCP, 192.168.65.1:59729, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.316956, 1:2221028:1, 3, TCP, 192.168.65.1:56824, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-11:53:13.317468, 1:2260005:1, 3, TCP, 192.168.65.1:56824, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:53:13.330363, 1:2221028:1, 3, TCP, 192.168.65.1:56700, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-11:53:13.330738, 1:2260005:1, 3, TCP, 192.168.65.1:56700, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-11:54:01.190066, 1:2013028:7, 2, TCP, 192.168.65.3:40324, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:54:01.190935, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:40324, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:55:01.665789, 1:2013028:7, 2, TCP, 192.168.65.3:40888, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:55:01.667108, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:40888, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:56:01.799076, 1:2013028:7, 2, TCP, 192.168.65.3:34312, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:56:01.799783, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:34312, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:57:02.098368, 1:2013028:7, 2, TCP, 192.168.65.3:59980, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:57:02.098872, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:59980, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:58:01.174232, 1:2013028:7, 2, TCP, 192.168.65.3:56482, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:58:01.174772, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:56482, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:59:01.288096, 1:2013028:7, 2, TCP, 192.168.65.3:50310, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:59:01.289008, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:50310, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-11:59:34.391822, 1:2013028:7, 2, TCP, 192.168.65.3:59052, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-11:59:34.392356, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:59052, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:00:01.406458, 1:2013028:7, 2, TCP, 192.168.65.3:35680, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:00:01.407079, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:35680, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:01:01.879484, 1:2013028:7, 2, TCP, 192.168.65.3:38892, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:01:01.880270, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:38892, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:02:02.030526, 1:2013028:7, 2, TCP, 192.168.65.3:33780, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:02:02.031070, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:33780, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:03:01.146543, 1:2013028:7, 2, TCP, 192.168.65.3:34722, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:03:01.147583, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:34722, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:04:01.259188, 1:2013028:7, 2, TCP, 192.168.65.3:37202, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:04:01.261617, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:37202, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:05:01.384571, 1:2013028:7, 2, TCP, 192.168.65.3:40516, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:05:01.385241, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:40516, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:06:01.513666, 1:2013028:7, 2, TCP, 192.168.65.3:58752, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:06:01.514242, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:58752, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:07:01.663057, 1:2013028:7, 2, TCP, 192.168.65.3:50550, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:07:01.663632, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:50550, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:08:01.772967, 1:2013028:7, 2, TCP, 192.168.65.3:46544, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:08:01.773575, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:46544, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:08:13.091833, 1:2221028:1, 3, TCP, 192.168.65.1:47288, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:08:13.091763, 1:2221028:1, 3, TCP, 192.168.65.1:49444, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:08:13.092200, 1:2260005:1, 3, TCP, 192.168.65.1:47288, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.092080, 1:2260005:1, 3, TCP, 192.168.65.1:49444, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.092307, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:47288, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.092107, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:49444, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.092618, 1:2260005:1, 3, TCP, 192.168.65.1:47288, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.092447, 1:2260005:1, 3, TCP, 192.168.65.1:49444, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.104621, 1:2221028:1, 3, TCP, 192.168.65.1:45260, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:08:13.104672, 1:2221028:1, 3, TCP, 192.168.65.1:17751, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:08:13.104957, 1:2260005:1, 3, TCP, 192.168.65.1:45260, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.104952, 1:2260005:1, 3, TCP, 192.168.65.1:17751, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.104961, 1:2260005:1, 3, TCP, 192.168.65.1:45260, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.251048, 1:2221028:1, 3, TCP, 192.168.65.1:60773, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:08:13.251394, 1:2260005:1, 3, TCP, 192.168.65.1:60773, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.251407, 1:2260005:1, 3, TCP, 192.168.65.1:60773, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.251500, 1:2260005:1, 3, TCP, 192.168.65.1:60773, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.251527, 1:2260005:1, 3, TCP, 192.168.65.1:60773, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.260333, 1:2221028:1, 3, TCP, 192.168.65.1:35814, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:08:13.260745, 1:2260005:1, 3, TCP, 192.168.65.1:35814, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.260754, 1:2260005:1, 3, TCP, 192.168.65.1:35814, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:08:13.260776, 1:2260005:1, 3, TCP, 192.168.65.1:35814, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:09:01.904526, 1:2013028:7, 2, TCP, 192.168.65.3:52472, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:09:01.905023, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:52472, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:10:02.034110, 1:2013028:7, 2, TCP, 192.168.65.3:56996, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:10:02.034677, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:56996, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:11:01.101854, 1:2013028:7, 2, TCP, 192.168.65.3:54650, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:11:01.102404, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:54650, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:12:01.186029, 1:2013028:7, 2, TCP, 192.168.65.3:33640, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:12:01.186510, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:33640, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:13:01.314844, 1:2013028:7, 2, TCP, 192.168.65.3:59680, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:13:01.315337, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:59680, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:14:01.433174, 1:2013028:7, 2, TCP, 192.168.65.3:58208, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:14:01.433777, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:58208, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:15:01.539917, 1:2013028:7, 2, TCP, 192.168.65.3:50880, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:15:01.540446, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:50880, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:16:01.665949, 1:2013028:7, 2, TCP, 192.168.65.3:54042, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:16:01.666477, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:54042, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:17:01.785941, 1:2013028:7, 2, TCP, 192.168.65.3:58810, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:17:01.786486, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:58810, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:18:01.891080, 1:2013028:7, 2, TCP, 192.168.65.3:58678, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:18:01.891655, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:58678, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:19:02.063465, 1:2013028:7, 2, TCP, 192.168.65.3:35822, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:19:02.064006, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:35822, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:20:01.118561, 1:2013028:7, 2, TCP, 192.168.65.3:38992, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:20:01.118977, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:38992, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:21:01.256937, 1:2013028:7, 2, TCP, 192.168.65.3:53756, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:21:01.257539, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:53756, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:22:01.398476, 1:2013028:7, 2, TCP, 192.168.65.3:45454, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:22:01.399496, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:45454, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:23:01.533599, 1:2013028:7, 2, TCP, 192.168.65.3:50520, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:23:01.534196, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:50520, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:23:13.100792, 1:2221028:1, 3, TCP, 192.168.65.1:50697, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:23:13.100929, 1:2221028:1, 3, TCP, 192.168.65.1:43427, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:23:13.101307, 1:2260005:1, 3, TCP, 192.168.65.1:50697, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.101313, 1:2260005:1, 3, TCP, 192.168.65.1:43427, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.101375, 1:2260005:1, 3, TCP, 192.168.65.1:50697, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.101502, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:50697, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.101336, 1:2260005:1, 3, TCP, 192.168.65.7:2375, 192.168.65.1:43427, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.101895, 1:2260005:1, 3, TCP, 192.168.65.1:50697, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.101676, 1:2260005:1, 3, TCP, 192.168.65.1:43427, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.120010, 1:2221028:1, 3, TCP, 192.168.65.1:56882, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:23:13.119798, 1:2221028:1, 3, TCP, 192.168.65.1:36485, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:23:13.120330, 1:2260005:1, 3, TCP, 192.168.65.1:56882, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.120053, 1:2260005:1, 3, TCP, 192.168.65.1:36485, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.121245, 1:2260005:1, 3, TCP, 192.168.65.1:56882, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.120748, 1:2260005:1, 3, TCP, 192.168.65.1:36485, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.121493, 1:2260005:1, 3, TCP, 192.168.65.1:56882, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.120782, 1:2260005:1, 3, TCP, 192.168.65.1:36485, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.158756, 1:2221028:1, 3, TCP, 192.168.65.1:65297, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:23:13.159135, 1:2260005:1, 3, TCP, 192.168.65.1:65297, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.159504, 1:2260005:1, 3, TCP, 192.168.65.1:65297, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.159541, 1:2260005:1, 3, TCP, 192.168.65.1:65297, 192.168.65.7:2375, SURICATA Applayer Unexpected protocol, Generic Protocol Command Decode
+08/03/2024-12:23:13.175885, 1:2221028:1, 3, TCP, 192.168.65.1:47507, 192.168.65.7:2375, SURICATA HTTP Host header invalid, Generic Protocol Command Decode
+08/03/2024-12:24:01.633470, 1:2013028:7, 2, TCP, 192.168.65.3:52060, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:24:01.634065, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:52060, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:25:01.717300, 1:2013028:7, 2, TCP, 192.168.65.3:41324, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:25:01.718018, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:41324, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:26:01.831141, 1:2013028:7, 2, TCP, 192.168.65.3:33968, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:26:01.831645, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:33968, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:27:01.990472, 1:2013028:7, 2, TCP, 192.168.65.3:38114, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:27:01.993093, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:38114, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:28:01.125028, 1:2013028:7, 2, TCP, 192.168.65.3:38730, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:28:01.125492, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:38730, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:29:01.240550, 1:2013028:7, 2, TCP, 192.168.65.3:33526, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:29:01.241182, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:33526, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:30:01.366091, 1:2013028:7, 2, TCP, 192.168.65.3:59502, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:30:01.366827, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:59502, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:30:49.459469, 1:2013028:7, 2, TCP, 192.168.65.3:58776, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:30:49.459900, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:58776, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:31:01.465154, 1:2013028:7, 2, TCP, 192.168.65.3:42904, 18.154.22.65:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:31:01.465644, 1:2100498:7, 2, TCP, 18.154.22.65:80, 192.168.65.3:42904, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:32:01.622553, 1:2013028:7, 2, TCP, 192.168.65.3:58070, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:32:01.623336, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:58070, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:33:01.791988, 1:2013028:7, 2, TCP, 192.168.65.3:59480, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:33:01.793060, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:59480, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:34:01.915983, 1:2013028:7, 2, TCP, 192.168.65.3:46292, 18.154.22.96:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:34:01.916429, 1:2100498:7, 2, TCP, 18.154.22.96:80, 192.168.65.3:46292, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:35:02.082503, 1:2013028:7, 2, TCP, 192.168.65.3:44308, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:35:02.083237, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:44308, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:36:01.160185, 1:2013028:7, 2, TCP, 192.168.65.3:45404, 18.154.22.70:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:36:01.160809, 1:2100498:7, 2, TCP, 18.154.22.70:80, 192.168.65.3:45404, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:37:01.448551, 1:2013028:7, 2, TCP, 192.168.65.3:59714, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:37:01.449089, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:59714, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
+08/03/2024-12:38:01.637564, 1:2013028:7, 2, TCP, 192.168.65.3:58334, 18.154.22.58:80, ET INFO curl User-Agent Outbound, Attempted Information Leak
+08/03/2024-12:38:01.638214, 1:2100498:7, 2, TCP, 18.154.22.58:80, 192.168.65.3:58334, GPL ATTACK_RESPONSE id check returned root, Potentially Bad Traffic
