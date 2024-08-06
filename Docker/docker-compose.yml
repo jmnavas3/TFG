@@ -1,0 +1,83 @@
+x-networks: &networks
+  networks:
+    - proxy
+    - default
+
+networks:
+  proxy:
+    external: true
+  default:
+    external: false
+
+services:
+#  reverse-proxy:
+#    build:
+#      context: ../
+#      dockerfile: Docker/traefik/Dockerfile
+#    # The official v2 Traefik docker image
+#    image: traefik:v2.4
+#    # Enables the web UI and tells Traefik to listen to docker
+#    restart: always
+#    command:
+#        - "--api.insecure=true"
+#        - "--providers.docker=true"
+#        - "--providers.docker.exposedbydefault=true"
+#        - "--entrypoints.proxy.address=:80"
+#    ports:
+#        # The HTTP port
+#        - "80:80"
+#        # The Web UI (enabled by --api.insecure=true)
+#        - "8080:8080"
+#    volumes:
+#        # So that Traefik can listen to the Docker events
+#        - /var/run/docker.sock:/var/run/docker.sock
+#    networks:
+#        - proxy
+#        - default
+  backend:
+    build:
+      context: ../
+      dockerfile: Docker/python/Dockerfile
+      args:
+        - PYTHON_VERSION=${PYTHON_VERSION}
+    tty: true
+    container_name: ${PYTHONCONTAINER}
+    working_dir: ${WORKDIR}
+    environment:
+      - TZ=Europe/Madrid
+      - FLASK_APP=backend.application
+      - ROUTER_HOST=${ROUTEROS_HOST}
+      - ROUTEROS_USER=${ROUTEROS_USER}
+      - ROUTEROS_PASS=${ROUTEROS_PASS}
+      - SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_SERVICE}:5432/${POSTGRES_DB}
+      - SQLALCHEMY_DATABASE_URI_TESTING=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_SERVICE}:5432/${POSTGRES_DB}_testing
+    volumes:
+      - ${ROOT}/app:/app
+      - ${ROOT}/config:/config
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${PYTHONCONTAINER}.rule=Host(`${PYTHONCONTAINER}.${DOMAIN}`)"
+      - traefik.backend=${PYTHONCONTAINER}
+      - traefik.docker.network=proxy
+    <<: *networks
+  postgres:
+    image: 'postgres:latest'
+    restart: unless-stopped
+    container_name: ${POSTGRESCONTAINER}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${POSTGRESCONTAINER}.rule=Host(`${POSTGRESCONTAINER}.${DOMAIN}`)"
+      - traefik.docker.network=proxy
+    <<: *networks
+    ports:
+      - '5432:5432'
+
+volumes:
+  pgdata:
+    driver: local
