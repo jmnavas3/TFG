@@ -32,8 +32,8 @@ def get_engine_url():
         return str(get_engine().url).replace('%', '%%')
 
 
-from backend.database.database import Base
-from backend.database.models.fast_alerts import FastAlert
+from app.backend.database.database import Base
+from app.backend.database.models.fast_alerts import FastAlert
 
 target_metadata = [
     FastAlert.metadata

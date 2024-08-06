@@ -1,6 +1,6 @@
 from injector import Module, Binder, singleton
-from backend.src.alerts.infrastructure.services.import_csv_service import AlertRepository, CambioArchivoHandler
-from backend.database.database import Database
+from app.backend.src.alerts.infrastructure.services.import_csv_service import AlertRepository, CambioArchivoHandler
+from app.backend.database.database import Database
 
 
 class Container(Module):

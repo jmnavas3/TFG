@@ -1,5 +1,5 @@
 from flask import Blueprint, current_app
-from backend.database.database import Database
+from app.backend.database.database import Database
 
 
 api_route = Blueprint('api', __name__)
