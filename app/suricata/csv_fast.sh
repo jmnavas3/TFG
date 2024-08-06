@@ -1,5 +1,7 @@
 #!/bin/bash
 # almacena en un archivo csv la salida del archivo fast.log
+# OBSOLETO
+# SE HA MOVIDO A app.backend.scripts
 
 LOG_FILE=./fast.log
 CSV_FILE=./data.csv
