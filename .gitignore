@@ -6,8 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
-# Suricata logs
+# Suricata logs and more stuff
 suricata/log/
+*.xml
+*.iml
 
 # Distribution / packaging
 .Python
