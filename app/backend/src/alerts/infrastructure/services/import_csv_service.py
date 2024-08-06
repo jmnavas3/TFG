@@ -1,7 +1,9 @@
-import threading
+import logging
 import time
+from pathlib import Path
+
 import pandas as pd
-from watchdog.events import FileSystemEventHandler
+from watchdog.events import FileSystemEventHandler, LoggingEventHandler
 
 # repository imports
 from contextlib import AbstractContextManager
@@ -9,24 +11,14 @@ from typing import Callable
 from sqlalchemy.orm import Session
 
 from app.backend.database.models.fast_alerts import FastAlert as EntityModel
+from watchdog.observers import Observer
 
 
 class CambioArchivoLine(FileSystemEventHandler):
     def __init__(self, log: str = "", csv: str = ""):
         self._csv = csv
         self._file_path = log
-        self.my_thread = None
-    
-    def start(self):
-        self.my_thread = threading.Thread(target=self._process)
-        self.my_thread.daemon = True
-        self.my_thread.start()
-    
-    def _process(self):
-        while True:
-            print("hola desde rama")
-            time.sleep(1)
-    
+
     def on_modified(self, event):
         if event.src_path == self._file_path:
             time.sleep(1)
@@ -75,33 +67,33 @@ class AlertRepository:
 
 
 # configuramos logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
+# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 # obtenemos ruta al directorio app
-path_root = str(Path(__file__).parents[5])
-self._file_path = f'{path_root}/suricata/log/fast.log'
-csv_path = f'{path_root}/suricata/log/fast.csv'
+# path_root = str(Path(__file__).parents[5])
+# file_path = f'{path_root}/suricata/log/fast.log'
+# csv_path = f'{path_root}/suricata/log/fast.csv'
 
 # event_handler = CambioArchivoHandler()
 # observer = Observer()
 # observer.schedule(event_handler, path=self._file_path, recursive=False)
 # observer.start()
 
-event_handler = CambioArchivoLine(csv=csv_path)
-observer = Observer()
-observer.schedule(event_handler, path=self._file_path, recursive=False)
-observer.start()
+# event_handler = CambioArchivoLine(csv=csv_path)
+# observer = Observer()
+# observer.schedule(event_handler, path=file_path, recursive=False)
+# observer.start()
 
-logging_event_handler = LoggingEventHandler()
-observer_out = Observer()
-observer_out.schedule(logging_event_handler, path=self._file_path, recursive=False)
-observer_out.start()
+# logging_event_handler = LoggingEventHandler()
+# observer_out = Observer()
+# observer_out.schedule(logging_event_handler, path=file_path, recursive=False)
+# observer_out.start()
 
-try:
-    while True:
-        time.sleep(1)
-except KeyboardInterrupt:
-    observer.stop()
-    observer_out.stop()
-observer.join()
-observer_out.join()
+# try:
+#     while True:
+#         time.sleep(1)
+# except KeyboardInterrupt:
+    # observer.stop()
+    # observer_out.stop()
+# observer.join()
+# observer_out.join()
