@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## ARCHIVO OBSOLETO
+
 LOG_FILE=temp.log
 
 # fecha
