@@ -2,8 +2,13 @@ import logging
 from pathlib import Path
 import threading
 import time
+import sys
 
-from backend.src.alerts.infrastructure.services.import_csv_service import CambioArchivoLine
+path_root = Path(__file__).parents[2]
+sys.path.append(str(path_root))
+
+from app.backend.src.alerts.infrastructure.services.import_csv_service import AlertRepository, \
+    CambioArchivoHandler
 from flask import Flask
 from flask_injector import FlaskInjector
 from injector import Injector
@@ -11,38 +16,24 @@ from injector import Injector
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 
-from backend.database.database import Database
-from backend.containers import Container
-from backend.configuration.configuration import Config
-from backend.routes.api import api_route, readiness_route
+from app.backend.database.database import Database
+from app.backend.containers import Container
+from app.backend.configuration.configuration import Config
+from app.backend.routes.api import api_route, readiness_route
+
 
 logger = logging.getLogger(__name__)
+ALLOWED_EXTENSIONS = {'txt', 'csv'}
+
 
 # obtenemos ruta al directorio app
 try:    
     path_root = str(Path(__file__).parents[1])
-    print(path_root)
+    # print(path_root)
     csv_path = f'{path_root}/suricata/log/fast.csv'
-    file_path = f'{path_root}/suricata/log/fast.log'
-    handler = CambioArchivoLine(file_path, csv_path)
-    handler.start()
+    file_path = f'{path_root}/suricata/log/fast.csv'
 except Exception as e:
     print(e)
-
-
-def worker():
-    observer_out = Observer()
-    observer_out.schedule(handler, path=file_path, recursive=False)
-    observer_out.start()
-    
-    try:
-        while True:
-            print("hola mundo!")
-            time.sleep(1)
-    except Exception as e:
-        print(str(e))
-        observer_out.stop()
-    observer_out.join()
 
 
 def create_app() -> Flask:
@@ -65,24 +56,38 @@ def create_app() -> Flask:
     return app
 
 
-if __name__ == '__main__':
-    # Create and start a new thread
-    # thread = threading.Thread(target=worker)
-    # thread.start()
-    
-    observer_out = Observer()
-    observer_out.schedule(handler, path=file_path, recursive=False)
-    observer_out.start()
-    
+def run_watchdog():
+    repo = AlertRepository(Database.session_factory(db=db))
+    event_handler = CambioArchivoHandler(repo, csv_path, file_path)
+    observer = Observer()
+    observer.schedule(event_handler, file_path, recursive=False)
+    observer.start()
     try:
         while True:
-            print("hola mundo!")
             time.sleep(1)
-    except Exception as e:
-        print(str(e))
-        observer_out.stop()
-    observer_out.join()
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.join()
 
+
+def run_flask_app():
     application = create_app()
-    application.run(host='0.0.0.0')
-    # thread.join()
+    application.run(host="0.0.0.0", debug=True, use_reloader=False)
+
+
+if __name__ == '__main__':
+
+    config = Config.create("/config/config.yml").__dict__
+    db = Database(config['SQLALCHEMY_DATABASE_URI'])
+
+    flask_thread = threading.Thread(target=run_flask_app)
+    watchdog_thread = threading.Thread(target=run_watchdog)
+
+    flask_thread.start()
+    watchdog_thread.start()
+
+    flask_thread.join()
+    watchdog_thread.join()
+
+    # application = create_app()
+    # application.run(host='0.0.0.0')
