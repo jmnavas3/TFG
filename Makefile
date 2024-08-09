@@ -44,6 +44,9 @@ install:					## Instala en entorno .env de Docker
 build: install				## Construye los contenedores locales
 	$(CDDK) && docker compose build
 
+rebuild:					## Construye los contenedores locales
+	$(CDDK) && docker compose build --no-cache
+
 up:							## Levanta los contenedores locales y mantiene el stdout por pantalla
 	$(CDDK) && docker compose up $(RUNUP)
 
