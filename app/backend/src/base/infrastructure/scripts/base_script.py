@@ -1,15 +1,9 @@
 import subprocess
-# import sys
-# from pathlib import Path
-
-# path_root = Path(__file__).parents[5]
-# sys.path.append(str(path_root))
-
 
 from app.backend.configuration.configuration import Config
 
 
-class ScriptAbstractClass:
+class BaseScript:
     _path = None
     script_name = None
     command = ['bash']
