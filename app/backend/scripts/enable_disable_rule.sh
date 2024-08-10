@@ -5,7 +5,7 @@
 # ESTE SCRIPT ES EJECUTADO POR PYTHON
 
 
-FILE=''
+FILE='/app/suricata/rules/suricata.rules'
 
 # si no encuentra el SID en el directorio, termina el programa
 grep "$2" "$FILE" || exit
