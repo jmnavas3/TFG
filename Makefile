@@ -89,6 +89,12 @@ cronjob: up-ids-d
 	docker exec suricata crontab /etc/cron.d/my_cron
 	docker exec suricata crond -p
 
+run-multiple-vols:			## Ejecuta la imagen de suricata en la interfaz de red indicada y guardando los logs y las rules
+	docker run --rm -itd --name=suricata --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice \
+	-v ./app/suricata/rules/suricata.rules:/var/lib/suricata/suricata.rules \
+	-v ./app/suricata/log:/var/log/suricata \
+	$(IDS_IMG_NAME):latest -i $(INTER)
+
 exec-ids:					## Ingresamos a la imagen de suricata
 	docker exec -ti $(IDS_IMG_ID) /bin/bash
 
