@@ -1,5 +1,7 @@
 from sqlalchemy.orm import Query
 
+from app.backend.database.database import Base
+
 
 class BaseRepository:
 
@@ -11,3 +13,15 @@ class BaseRepository:
         """Paginate query by offset calculated by page and elements by page"""
 
         return query.limit(per_page).offset(page * per_page)
+
+    @staticmethod
+    def apply_order(query: Query, field: str, sort_type: str, entity_model: Base) -> Query:
+        """Apply order to query by given field and sort type"""
+
+        order_query = getattr(entity_model, field).asc()
+        if sort_type == 'desc':
+            order_query = getattr(entity_model, field).desc()
+        if order_query is not None:
+            return query.order_by(order_query)
+        return query
+
