@@ -35,6 +35,7 @@ def get_engine_url():
 from app.backend.database.database import Base
 from app.backend.database.models.fast_alerts import FastAlert
 from app.backend.database.models.fast import Fast
+from app.backend.database.models.ids_rules import IdsRules
 
 target_metadata = [
     FastAlert.metadata,
