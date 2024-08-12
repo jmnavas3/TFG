@@ -14,4 +14,4 @@ class Fast(Base):
     identificador = Column(String(15), unique=False, nullable=False)
     alerta = Column(Text, unique=False, nullable=False)
     clasificacion = Column(Text, unique=False, nullable=False)
-    fecha = Column(Text, server_default=func.now())
+    fecha = Column(DateTime(), server_default=func.now())
