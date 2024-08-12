@@ -1,5 +1,8 @@
 from injector import Module, Binder, singleton
-from app.backend.src.alerts.infrastructure.services.import_csv_service import AlertRepository, CambioArchivoHandler
+
+from app.backend.src.alerts.application.query.get_alerts_query import GetAlertsQuery
+from app.backend.src.alerts.infrastructure.repository.alert_repository import AlertRepository
+from app.backend.src.alerts.infrastructure.services.import_csv_service import CambioArchivoHandler
 from app.backend.database.database import Database
 from app.backend.src.rules.application.command.enable_disable_rule_handler import EnableDisableRuleHandler
 from app.backend.src.rules.application.query.get_rules_query import GetRulesQuery
@@ -30,6 +33,7 @@ class Container(Module):
         alert_handler = CambioArchivoHandler(repository=alert_repo,
                                              csv=csv_path,
                                              file_path=file_path)
+        get_alerts_query = GetAlertsQuery(repository=alert_repo)
 
         "Rule Items"
         enable_disable_rule_service = EnableDisableRuleService(repository=rules_repo, script=EnableDisableRuleScript())
@@ -42,6 +46,7 @@ class Container(Module):
         binder.bind(EnableDisableRuleService, to=enable_disable_rule_service, scope=singleton)
         binder.bind(EnableDisableRuleHandler, to=enable_disable_rule_handler, scope=singleton)
         binder.bind(GetRulesQuery, to=get_rules_query, scope=singleton)
+        binder.bind(GetAlertsQuery, to=get_alerts_query, scope=singleton)
 
     def configure_alert_repo(self, db: Database) -> AlertRepository:
         alert_repository = AlertRepository(Database.session_factory(db=db))
