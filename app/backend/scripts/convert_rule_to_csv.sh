@@ -17,7 +17,7 @@ awk '
 BEGIN {
     FS="[();]"
     OFS=","
-    print "rule,sid,rev,msg"
+    print "rule,sid,rev,msg,active"
 }
 
 # Función para eliminar espacios en blanco al inicio y al final de la cadena
@@ -48,10 +48,11 @@ function trim(s) {
             sub(/msg:"/, "", $i)
             sub(/"$/, "", $i)
             msg = trim($i)
+            msg = "\"" msg "\""
         }
     }
 
     if (sid != "" && rev != "") {
-        print trim(rule), sid, rev, msg
+        print trim(rule), sid, rev, msg, "True"
     }
 }' "$RULES_FILE" > $CSV_FILE
