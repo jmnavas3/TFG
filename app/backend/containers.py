@@ -2,7 +2,9 @@ from injector import Module, Binder, singleton
 from app.backend.src.alerts.infrastructure.services.import_csv_service import AlertRepository, CambioArchivoHandler
 from app.backend.database.database import Database
 from app.backend.src.rules.application.command.enable_disable_rule_handler import EnableDisableRuleHandler
+from app.backend.src.rules.application.query.get_rules_query import GetRulesQuery
 from app.backend.src.rules.domain.services.enable_disable_rule_service import EnableDisableRuleService
+from app.backend.src.rules.infrastructure.repository.rules_repository import RulesRepository
 from app.backend.src.rules.infrastructure.scripts.enable_disable_rule_script import EnableDisableRuleScript
 
 
@@ -19,24 +21,32 @@ class Container(Module):
         binder.bind(Database, to=db, scope=singleton)
 
         alert_repo = self.configure_alert_repo(db)
+        rules_repo = self.configure_rules_repo(db)
 
         csv_path = ''
         file_path = ''
 
-        "Items"
+        "Alert Items"
         alert_handler = CambioArchivoHandler(repository=alert_repo,
                                              csv=csv_path,
                                              file_path=file_path)
 
-        enable_disable_rule_service = EnableDisableRuleService(repository=alert_repo, script=EnableDisableRuleScript())
+        "Rule Items"
+        enable_disable_rule_service = EnableDisableRuleService(repository=rules_repo, script=EnableDisableRuleScript())
         enable_disable_rule_handler = EnableDisableRuleHandler(service=enable_disable_rule_service)
+
+        get_rules_query = GetRulesQuery(repository=rules_repo)
 
         "Bindings"
         binder.bind(CambioArchivoHandler, to=alert_handler, scope=singleton)
         binder.bind(EnableDisableRuleService, to=enable_disable_rule_service, scope=singleton)
         binder.bind(EnableDisableRuleHandler, to=enable_disable_rule_handler, scope=singleton)
-
+        binder.bind(GetRulesQuery, to=get_rules_query, scope=singleton)
 
     def configure_alert_repo(self, db: Database) -> AlertRepository:
         alert_repository = AlertRepository(Database.session_factory(db=db))
         return alert_repository
+
+    def configure_rules_repo(self, db: Database) -> RulesRepository:
+        rules_repository = RulesRepository(Database.session_factory(db=db))
+        return rules_repository
