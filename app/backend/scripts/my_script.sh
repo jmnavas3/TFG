@@ -14,12 +14,15 @@ if [ ! -f $LOG_FILE ]; then
     return
 fi
 
-echo "fecha, identificador, prioridad, protocolo, ip_origen, puerto_origen, ip_destino, puerto_destino, alerta, clasificacion" > $CSV_FILE
 
+echo "fecha,identificador,prioridad,protocolo,ip_origen,puerto_origen,ip_destino,puerto_destino,alerta,clasificacion" > $CSV_FILE
 
 # awk: lenguaje de regex para pasar fast.log a fast.csv
 # sed: regex que convierte la fecha y la hora al formato yyyy-MM-dd HH:mm:ss para el tipo de dato datetime de python
 awk '
+BEGIN {
+    OFS=","
+}
 {
     match($0, /([0-9]{2}\/[0-9]{2}\/[0-9]{4}-[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-9]{6})/, datetime);
     match($0, /\[\*\*\] \[([0-9]+:[0-9]+:[0-9]+)\]/, rule_id);
@@ -31,9 +34,25 @@ awk '
     match($0, /([0-9]+) ->/, source_port);
     match($0, /-> ([0-9]+\.[0-9]+\.[0-9]+\.[0-9]+):([0-9]+)/, dest_ip_port);
 
-    print datetime[1]", "rule_id[1]", "priority[1]", "protocol[1]", "source_ip[1]", "source_port[1]", "dest_ip_port[1]", "dest_ip_port[2]", "alert_message[1]", "classification[1];
-}' $LOG_FILE | sed -E 's/([0-9]{2})\/([0-9]{2})\/([0-9]{4})-([0-9]{2}):([0-9]{2}):([0-9]{2})\.[0-9]{6}/\3-\2-\1 \4:\5:\6/' >> $CSV_FILE
+    print datetime[1], rule_id[1], priority[1], protocol[1], source_ip[1], source_port[1], dest_ip_port[1], dest_ip_port[2], alert_message[1], classification[1];
+}' $LOG_FILE | sed -E 's/([0-9]{2})\/([0-9]{2})\/([0-9]{4})-([0-9]{2}):([0-9]{2}):([0-9]{2})\.[0-9]{6}/\3-\1-\2 \4:\5:\6/' >> $CSV_FILE
 
+# limpiamos archivo de logs
+> $LOG_FILE
 
 
 # -------------------------------------------------------------------------
+# script que actualiza las reglas del IDS en caso de haber modificado el archivo RULE_FILE en menos de OLDTIME (ultimo minuto)
+
+#RULE_FILE=/prueba.txt
+#
+#if [ -f "$RULE_FILE" ]; then
+#   OLDTIME=60
+#   CURTIME=$(date +%s)
+#   FILETIME=$(stat $RULE_FILE -c %Y)
+#   TIMEDIFF=$(expr $CURTIME - $FILETIME)
+#   if [ $TIMEDIFF -lt $OLDTIME ]; then
+#      echo "Archivo $RULE_FILE modificado hace $TIMEDIFF segundos"
+#      suricatasc -c reload-rules
+#   fi
+#fi
