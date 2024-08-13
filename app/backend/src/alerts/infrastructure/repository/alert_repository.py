@@ -34,7 +34,7 @@ class AlertRepository(BaseRepository):
 
     def save(self, csv=''):
         dataframe = pd.read_csv(csv)
-        dataframe.to_sql(EntityModel.__tablename__, self._engine, if_exists='append')
+        dataframe.to_sql(EntityModel.__tablename__, self._engine, if_exists='append', index=False)
 
     def get_alerts(self, request: OrderPagination):
         with self.session_factory() as session:
