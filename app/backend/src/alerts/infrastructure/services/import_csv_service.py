@@ -1,39 +1,18 @@
-import time
+from sqlalchemy import Engine
 
-from watchdog.events import FileSystemEventHandler, LoggingEventHandler
-
-
-class CambioArchivoLine(FileSystemEventHandler):
-    def __init__(self, log: str = "", csv: str = ""):
-        self._csv = csv
-        self._file_path = log
-
-    def on_modified(self, event):
-        if event.src_path == self._file_path:
-            time.sleep(1)
-            print("comprobando")
-            with open(self._csv, 'r') as file:
-                lines = file.readlines()
-                for line in lines:
-                    print(line.strip())
+from app.backend.database.models.fast import Fast as EntityModel
+from app.backend.src.alerts.domain.contracts.import_csv_contract import ImportCsv
+from app.backend.src.base.infrastructure.adapters.pandas_adapter import PandasAdapter
 
 
-class CambioArchivoHandler(FileSystemEventHandler):
-    _modified = 0
+class ImportCsvService(ImportCsv):
+    _entity_model = EntityModel.__tablename__
 
-    def __init__(self, repository, csv: str = "", file_path: str = ""):
-        self._repository = repository
-        self._csv = csv
-        self._file_path = file_path
-
-    def on_modified(self, event):
-        self._modified = (self._modified + 1) % 2
-        if event.src_path == self._file_path and self._modified == 1:
-            # esperamos a que termine de modificarse el archivo
-            time.sleep(2)
-            print(f"{self._file_path} ha sido modificado")
-            self.import_csv()
+    def __init__(self, engine: Engine, csv: str = ""):
+        self._adapter = PandasAdapter(engine, csv, self._entity_model)
 
     def import_csv(self):
-        print("Importando CSV a DB...")
-        self._repository.save(csv=self._csv)
+        try:
+            self._adapter.import_csv()
+        except Exception as e:
+            print(str(e))
