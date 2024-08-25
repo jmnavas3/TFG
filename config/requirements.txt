@@ -10,3 +10,4 @@ PyYAML
 RouterOS-api
 watchdog
 pandas
+gunicorn
