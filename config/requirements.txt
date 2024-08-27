@@ -1,6 +1,7 @@
 attrs
 injector
 Flask
+Flask-Cors
 Flask-Injector
 flask_sqlalchemy
 Flask-Migrate
