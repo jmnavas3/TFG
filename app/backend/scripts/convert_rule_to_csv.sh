@@ -11,7 +11,7 @@ CSV_FILE=$2
 # comprueba que existe el archivo de reglas
 test -f "$RULES_FILE" || exit
 # comprueba que la variable CSV_FILE no está vacía
-test ! -z "$CSV_FILE" || CSV_FILE="prueba.csv"
+test ! -z "$CSV_FILE" || CSV_FILE="/app/suricata/rules/new_rules.csv"
 
 awk '
 BEGIN {
@@ -52,7 +52,15 @@ function trim(s) {
         }
     }
 
+    rule = trim(rule)
+    rule = "\"" rule "\""
+
     if (sid != "" && rev != "") {
-        print trim(rule), sid, rev, msg, "True"
+        print rule, sid, rev, msg, "True"
     }
 }' "$RULES_FILE" > $CSV_FILE
+
+# print the number of lines parsed
+if [ -f "$CSV_FILE" ]; then
+  echo -n "$(wc -l "$CSV_FILE" | grep -o "^[[:digit:]]*")"
+fi
