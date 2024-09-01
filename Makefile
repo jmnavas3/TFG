@@ -19,7 +19,7 @@ CDDK 	= cd Docker
 CDIDS 	= cd Docker/suricata
 
 # variables IDS
-INTER			?= eth0
+INTER			?= wlo1
 IDS_IMG_NAME	= "jasonish/suricata"
 IDS_IMG_ID		=$(shell docker ps | grep "jasonish" | grep -Eo "^[[:alnum:]]{12}")
 IDS_IMG_VER		= 7.0.6
@@ -53,6 +53,10 @@ up:							## Levanta los contenedores locales y mantiene el stdout por pantalla
 up-d:						## Levanta los contenedores locales y deja libre la terminal
 	$(CDDK) && docker compose up $(RUNUPD)
 
+deploy: cronjob				## Levanta el IDS, los contenedores e inicia el servidor
+	$(CDDK) && docker compose up $(RUNUPD)
+	docker exec tfg_server sh deploy.sh
+
 exec:						## Ingresa por ssh al contenedor principal
 	$(CDDK) && docker exec -ti $(PYTHONCONTAINER) /bin/bash
 
@@ -83,7 +87,7 @@ up-rules:
 up-ids-d:					## Levanta la imagen de suricata y deja libre la terminal
 	docker run -itd --rm --net=host --cap-add=net_admin --name=suricata --cap-add=net_raw --cap-add=sys_nice -v ./app/suricata/log:/var/log/suricata $(IDS_IMG_NAME):$(IDS_IMG_VER) -i $(INTER)
 
-cronjob: up-ids-d
+cronjob: run-multiple-vols
 	docker cp $(SCRIPTS)/my_script.sh suricata:/
 	docker cp $(SCRIPTS)/my_cron suricata:/etc/cron.d/
 	docker exec suricata crontab /etc/cron.d/my_cron
@@ -91,12 +95,12 @@ cronjob: up-ids-d
 
 run-multiple-vols:			## Ejecuta la imagen de suricata en la interfaz de red indicada y guardando los logs y las rules
 	docker run --rm -itd --name=suricata --net=host --cap-add=net_admin --cap-add=net_raw --cap-add=sys_nice \
-	-v ./app/suricata/rules/suricata.rules:/var/lib/suricata/suricata.rules \
+	-v ./app/suricata/rules/:/var/lib/suricata/rules/copy \
 	-v ./app/suricata/log:/var/log/suricata \
 	$(IDS_IMG_NAME):latest -i $(INTER)
 
 exec-ids:					## Ingresamos a la imagen de suricata
-	docker exec -ti $(IDS_IMG_ID) /bin/bash
+	docker exec -ti suricata /bin/bash
 
 stop-ids:					## Paramos la imagen de suricata
 	docker stop $(IDS_IMG_ID)
