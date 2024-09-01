@@ -31,7 +31,7 @@ def validate_request_with_factory(request_class: object, arg: str, method: str =
                 kwargs[arg] = request_class.generate(**data)
             except Exception as e_info:
                 reason = str(e_info)[str(e_info).find('__init__()') + 10:]
-                abort(406, reason)
+                abort(406, e_info)
             return f(*args, **kwargs)
 
         return decorated_function
