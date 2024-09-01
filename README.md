@@ -5,5 +5,4 @@ Trabajo de Fin de Grado realizado por José María Navas Cabrera para la carrera
 ### Tutor: Pablo García Sánchez
 ___
 
-
-Flujo de trabajo a seguir [gitflow](misc/gitflow.md)
+NOTA: seguir historial de commits en rama "laptop".
