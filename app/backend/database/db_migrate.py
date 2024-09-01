@@ -1,4 +1,4 @@
-from app.backend.application import create_app
+from app.backend.flask_app import create_app
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 import os
