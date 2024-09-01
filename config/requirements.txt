@@ -1,11 +1,25 @@
+<<<<<<< HEAD
 # attrs
 injector
 # dependency-injector
 Flask
+=======
+attrs
+injector
+Flask
+Flask-Cors
+>>>>>>> d21db116366befdb866ac9b45065c3c981d67324
 Flask-Injector
 flask_sqlalchemy
 Flask-Migrate
 SQLAlchemy
 psycopg2
 PyYAML
+<<<<<<< HEAD
 RouterOS-api
+=======
+RouterOS-api
+watchdog
+pandas
+gunicorn
+>>>>>>> d21db116366befdb866ac9b45065c3c981d67324

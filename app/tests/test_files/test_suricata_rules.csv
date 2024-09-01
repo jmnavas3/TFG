@@ -1,0 +1,52 @@
+rule,sid,rev,msg,active
+alert ip any any -> any any,2260000,1,"SURICATA Applayer Mismatch protocol both directions",True
+alert ip any any -> any any,2260001,1,"SURICATA Applayer Wrong direction first Data",True
+alert ip any any -> any any,2260002,1,"SURICATA Applayer Detect protocol only one direction",True
+alert ip any any -> any any,2260003,1,"SURICATA Applayer Protocol detection skipped",True
+alert tcp any any -> any any,2260004,2,"SURICATA Applayer No TLS after STARTTLS",True
+alert tcp any any -> any any,2260005,1,"SURICATA Applayer Unexpected protocol",True
+alert pkthdr any any -> any any,2200000,2,"SURICATA IPv4 packet too small",True
+alert pkthdr any any -> any any,2200001,2,"SURICATA IPv4 header size too small",True
+alert pkthdr any any -> any any,2200002,2,"SURICATA IPv4 total length smaller than header size",True
+alert pkthdr any any -> any any,2200003,2,"SURICATA IPv4 truncated packet",True
+alert pkthdr any any -> any any,2200004,2,"SURICATA IPv4 invalid option",True
+alert pkthdr any any -> any any,2200005,2,"SURICATA IPv4 invalid option length",True
+alert pkthdr any any -> any any,2200006,2,"SURICATA IPv4 malformed option",True
+alert pkthdr any any -> any any,2200007,2,"SURICATA IPv4 padding required",True
+alert pkthdr any any -> any any,2200092,2,"SURICATA IPv4 with ICMPv6 header",True
+alert pkthdr any any -> any any,2200008,2,"SURICATA IPv4 option end of list required",True
+alert pkthdr any any -> any any,2200009,2,"SURICATA IPv4 duplicated IP option",True
+alert pkthdr any any -> any any,2200010,2,"SURICATA IPv4 unknown IP option",True
+alert pkthdr any any -> any any,2200011,2,"SURICATA IPv4 wrong IP version",True
+alert pkthdr any any -> any any,2200012,2,"SURICATA IPv6 packet too small",True
+alert pkthdr any any -> any any,2200013,2,"SURICATA IPv6 truncated packet",True
+alert pkthdr any any -> any any,2200014,2,"SURICATA IPv6 truncated extension header",True
+alert pkthdr any any -> any any,2200015,2,"SURICATA IPv6 duplicated Fragment extension header",True
+alert pkthdr any any -> any any,2200080,2,"SURICATA IPv6 useless Fragment extension header",True
+alert pkthdr any any -> any any,2200016,2,"SURICATA IPv6 duplicated Routing extension header",True
+alert pkthdr any any -> any any,2200017,2,"SURICATA IPv6 duplicated Hop-By-Hop Options extension header",True
+alert pkthdr any any -> any any,2200018,2,"SURICATA IPv6 duplicated Destination Options extension header",True
+alert pkthdr any any -> any any,2200019,2,"SURICATA IPv6 duplicated Authentication Header extension header",True
+alert pkthdr any any -> any any,2200020,2,"SURICATA IPv6 duplicate ESP extension header",True
+alert pkthdr any any -> any any,2200021,3,"SURICATA IPv6 invalid option length in header",True
+alert pkthdr any any -> any any,2200022,2,"SURICATA IPv6 wrong IP version",True
+alert pkthdr any any -> any any,2200081,2,"SURICATA IPv6 AH reserved field not 0",True
+alert pkthdr any any -> any any,2200086,2,"SURICATA IPv6 HOPOPTS unknown option",True
+alert pkthdr any any -> any any,2200087,2,"SURICATA IPv6 HOPOPTS only padding",True
+alert pkthdr any any -> any any,2200088,2,"SURICATA IPv6 DSTOPTS unknown option",True
+alert pkthdr any any -> any any,2200089,2,"SURICATA IPv6 DSTOPTS only padding",True
+alert ipv6 any any -> any any,2200093,2,"SURICATA RH Type 0",True
+alert ipv6 any any -> any any,2200094,2,"SURICATA zero length padN option",True
+alert ipv6 any any -> any any,2200095,2,"SURICATA reserved field in Frag Header not zero",True
+alert ipv6 any any -> any any,2200096,2,"SURICATA data after none",True
+alert ipv6 any any -> any any,2200097,2,"SURICATA unknown next header / protocol",True
+alert ipv6 any any -> any any,2200090,2,"SURICATA IPv6 with ICMPv4 header",True
+alert pkthdr any any -> any any,2200023,2,"SURICATA ICMPv4 packet too small",True
+alert pkthdr any any -> any any,2200024,2,"SURICATA ICMPv4 unknown type",True
+alert pkthdr any any -> any any,2200025,2,"SURICATA ICMPv4 unknown code",True
+alert pkthdr any any -> any any,2200026,2,"SURICATA ICMPv4 truncated packet",True
+alert pkthdr any any -> any any,2200027,2,"SURICATA ICMPv4 unknown version",True
+alert pkthdr any any -> any any,2200028,2,"SURICATA ICMPv6 packet too small",True
+alert pkthdr any any -> any any,2200029,2,"SURICATA ICMPv6 unknown type",True
+alert pkthdr any any -> any any,2200030,2,"SURICATA ICMPv6 unknown code",True
+alert tls any any -> any any,2230012,1,"SURICATA TLS overflow heartbeat encountered, possible exploit attempt",True

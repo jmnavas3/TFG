@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Blueprint, current_app
 from backend.database.database import Database
 
@@ -20,3 +21,21 @@ def db_check():
     except Exception as e:
         print(str(e))
         return "KO", 500
+=======
+from flask import Blueprint
+
+from app.backend.routes.alerts import alerts_page
+from app.backend.routes.firewall import firewall_page
+from app.backend.routes.rules import rules_page
+
+api_route = Blueprint('api', __name__)
+api_route.register_blueprint(rules_page)
+api_route.register_blueprint(alerts_page)
+api_route.register_blueprint(firewall_page)
+
+
+@api_route.route('', methods=['GET'])
+def index():
+    print("hola mundo!")
+    return "Hola Mundo!", 200
+>>>>>>> d21db116366befdb866ac9b45065c3c981d67324

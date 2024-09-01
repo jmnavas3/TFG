@@ -6,8 +6,17 @@ __pycache__/
 # C extensions
 *.so
 
+<<<<<<< HEAD
 # Suricata logs
 suricata/log/
+=======
+temp/*
+
+# Suricata logs and more stuff
+suricata/log/
+*.xml
+*.iml
+>>>>>>> d21db116366befdb866ac9b45065c3c981d67324
 
 # Distribution / packaging
 .Python
@@ -163,3 +172,9 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+<<<<<<< HEAD
+=======
+/app/suricata/
+/app/suricata/rules/
+/app/suricata/log/
+>>>>>>> d21db116366befdb866ac9b45065c3c981d67324

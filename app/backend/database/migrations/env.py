@@ -32,11 +32,21 @@ def get_engine_url():
         return str(get_engine().url).replace('%', '%%')
 
 
+<<<<<<< HEAD
 from backend.database.database import Base
 from backend.database.models.fast_alerts import FastAlert
 
 target_metadata = [
     FastAlert.metadata
+=======
+from app.backend.database.database import Base
+from app.backend.database.models.fast_alerts import FastAlert
+from app.backend.database.models.fast import Fast
+from app.backend.database.models.ids_rules import IdsRules
+
+target_metadata = [
+    FastAlert.metadata,
+>>>>>>> d21db116366befdb866ac9b45065c3c981d67324
 ]
 
 # add your model's MetaData object here

@@ -1,0 +1,2 @@
+rule,sid,rev,msg,active
+alert http any any -> any any,50200002,1,"Attempt to access /sbin*",True
