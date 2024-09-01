@@ -15,6 +15,12 @@ class BaseRepository:
         return query.limit(per_page).offset(page * per_page)
 
     @staticmethod
+    def get_total(query: Query) -> int:
+        """Get total number of elements"""
+
+        return query.count()
+
+    @staticmethod
     def apply_order(query: Query, field: str, sort_type: str, entity_model: Base) -> Query:
         """Apply order to query by given field and sort type"""
 

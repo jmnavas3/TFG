@@ -1,0 +1,11 @@
+fecha,identificador,prioridad,protocolo,ip_origen,puerto_origen,ip_destino,puerto_destino,alerta,clasificacion,reciente
+2024-08-24 14:16:16,1:2013054:5,2,TCP,192.168.1.22,51934,185.125.189.31,80, ET USER_AGENTS PyCurl Suspicious User Agent Outbound,Attempted Information Leak,True
+2024-08-24 14:16:26,1:2231000:1,3,UDP,192.168.1.22,52313,172.217.17.3,443, SURICATA QUIC failed decrypt,Generic Protocol Command Decode,True
+2024-08-24 14:16:26,1:2231000:1,3,UDP,192.168.1.22,52313,172.217.17.3,443, SURICATA QUIC failed decrypt,Generic Protocol Command Decode,True
+2024-08-24 14:16:26,1:2231000:1,3,UDP,192.168.1.22,52313,172.217.17.3,443, SURICATA QUIC failed decrypt,Generic Protocol Command Decode,True
+2024-08-24 14:16:28,1:2260000:1,3,TCP,192.168.1.22,38142,192.168.1.11,8009, SURICATA Applayer Mismatch protocol both directions,Generic Protocol Command Decode,True
+2024-08-24 14:16:46,1:2013054:5,2,TCP,192.168.1.22,60118,185.125.189.31,80, ET USER_AGENTS PyCurl Suspicious User Agent Outbound,Attempted Information Leak,True
+2024-08-24 14:16:49,1:2260000:1,3,TCP,192.168.1.22,49524,192.168.1.11,8009, SURICATA Applayer Mismatch protocol both directions,Generic Protocol Command Decode,True
+2024-08-24 14:17:02,1:2013028:7,2,TCP,192.168.1.22,55352,18.154.22.65,80, ET INFO curl User-Agent Outbound,Attempted Information Leak,True
+2024-08-24 14:17:02,1:2013028:7,2,TCP,192.168.1.22,55352,18.154.22.65,80, ET INFO curl User-Agent Outbound,Attempted Information Leak,True
+2024-08-24 14:16:46,1:2013054:5,2,TCP,192.168.1.22,60118,185.125.189.31,80, ET USER_AGENTS PyCurl Suspicious User Agent Outbound,Attempted Information Leak,True

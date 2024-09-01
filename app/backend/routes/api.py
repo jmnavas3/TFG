@@ -1,13 +1,13 @@
 from flask import Blueprint
 
-from app.backend.src.alerts.infrastructure.controllers.get_alerts_controller import get_alerts
-from app.backend.src.rules.infrastructure.controllers.enable_disable_rule_controller import enable_disable
-from app.backend.src.rules.infrastructure.controllers.get_rules_controller import get_rules
+from app.backend.routes.alerts import alerts_page
+from app.backend.routes.firewall import firewall_page
+from app.backend.routes.rules import rules_page
 
 api_route = Blueprint('api', __name__)
-api_route.register_blueprint(enable_disable)
-api_route.register_blueprint(get_rules)
-api_route.register_blueprint(get_alerts)
+api_route.register_blueprint(rules_page)
+api_route.register_blueprint(alerts_page)
+api_route.register_blueprint(firewall_page)
 
 
 @api_route.route('', methods=['GET'])

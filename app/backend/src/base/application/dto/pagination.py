@@ -17,3 +17,11 @@ class OrderPagination(object):
         :return:
         """
         return OrderPagination(page=page, per_page=per_page, field=field, sort_type=sort_type)
+
+    def as_dict(self):
+        return {
+            "page": self.page,
+            "per_page": self.per_page,
+            "field": self.field,
+            "sort_type": self.sort_type
+        }

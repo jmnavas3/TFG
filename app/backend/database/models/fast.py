@@ -1,4 +1,4 @@
-from sqlalchemy import Column, String, Integer, Text, DateTime
+from sqlalchemy import Column, String, Integer, Text, DateTime, Boolean
 from sqlalchemy.sql import func
 from ..database import Base
 
@@ -17,3 +17,4 @@ class Fast(Base):
     alerta = Column(Text, unique=False, nullable=False)
     clasificacion = Column(Text, unique=False, nullable=False)
     fecha = Column(DateTime(), server_default=func.now())
+    reciente = Column(Boolean(), unique=False, default=True)

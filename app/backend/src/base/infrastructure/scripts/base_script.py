@@ -15,5 +15,8 @@ class BaseScript:
     def get_command(self):
         return self.command + [self._path] + self.params
 
-    def run(self):
-        subprocess.run(self.get_command())
+    def run(self, output=False):
+        try:
+            return subprocess.run(self.get_command(), capture_output=output, text=output).stdout
+        except subprocess.CalledProcessError as e:
+            return False
