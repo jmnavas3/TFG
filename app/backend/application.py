@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 import logging
 from pathlib import Path
 import threading
@@ -11,17 +9,10 @@ sys.path.append(str(path_root))
 
 from app.backend.src.alerts.infrastructure.services.import_csv_service import AlertRepository, \
     CambioArchivoHandler
->>>>>>> d21db116366befdb866ac9b45065c3c981d67324
 from flask import Flask
 from flask_injector import FlaskInjector
 from injector import Injector
 
-<<<<<<< HEAD
-from backend.database.database import Database
-from backend.containers import Container
-from backend.configuration.configuration import Config
-from backend.routes.api import api_route, readiness_route
-=======
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 
@@ -43,7 +34,6 @@ try:
     file_path = f'{path_root}/suricata/log/fast.csv'
 except Exception as e:
     print(e)
->>>>>>> d21db116366befdb866ac9b45065c3c981d67324
 
 
 def create_app() -> Flask:
@@ -65,11 +55,6 @@ def create_app() -> Flask:
 
     return app
 
-<<<<<<< HEAD
-if __name__ == '__main__':
-    application = create_app()
-    application.run(host='0.0.0.0')
-=======
 
 def run_watchdog():
     repo = AlertRepository(Database.session_factory(db=db))
@@ -106,4 +91,3 @@ if __name__ == '__main__':
 
     # application = create_app()
     # application.run(host='0.0.0.0')
->>>>>>> d21db116366befdb866ac9b45065c3c981d67324

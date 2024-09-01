@@ -10,32 +10,6 @@ networks:
     external: false
 
 services:
-<<<<<<< HEAD
-  reverse-proxy:
-    build:
-      context: ../
-      dockerfile: Docker/traefik/Dockerfile
-    # The official v2 Traefik docker image
-    image: traefik:v2.4
-    # Enables the web UI and tells Traefik to listen to docker
-    restart: always
-    command:
-        - "--api.insecure=true"
-        - "--providers.docker=true"
-        - "--providers.docker.exposedbydefault=true"
-        - "--entrypoints.proxy.address=:80"
-    ports:
-        # The HTTP port
-        - "80:80"
-        # The Web UI (enabled by --api.insecure=true)
-        - "8080:8080"
-    volumes:
-        # So that Traefik can listen to the Docker events
-        - /var/run/docker.sock:/var/run/docker.sock
-    networks:
-        - proxy
-        - default
-=======
 #  reverse-proxy:
 #    build:
 #      context: ../
@@ -60,7 +34,6 @@ services:
 #    networks:
 #        - proxy
 #        - default
->>>>>>> d21db116366befdb866ac9b45065c3c981d67324
   backend:
     build:
       context: ../
@@ -72,10 +45,7 @@ services:
     working_dir: ${WORKDIR}
     environment:
       - TZ=Europe/Madrid
-<<<<<<< HEAD
-=======
       - FLASK_APP=backend.application
->>>>>>> d21db116366befdb866ac9b45065c3c981d67324
       - ROUTER_HOST=${ROUTEROS_HOST}
       - ROUTEROS_USER=${ROUTEROS_USER}
       - ROUTEROS_PASS=${ROUTEROS_PASS}

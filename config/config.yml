@@ -1,13 +1,10 @@
 COMMON: &common
-<<<<<<< HEAD
-=======
   UPLOAD_FOLDER: "/app/suricata/rules"
   CSV_ALERTS: "/app/suricata/log/fast.csv"
   CSV_RULES: "/app/suricata/rules/suricata_rules.csv"
   NEW_RULES: "/app/suricata/rules/new.rules"
   SCRIPTS:
     PATH: "/app/backend/scripts/"
->>>>>>> d21db116366befdb866ac9b45065c3c981d67324
   ROUTEROS:
     HOST: ${ROUTEROS_HOST}
     USER: ${ROUTEROS_USER}
@@ -18,13 +15,10 @@ DEVELOPMENT: &development
   SQLALCHEMY_DATABASE_URI: ${SQLALCHEMY_DATABASE_URI}
 
 TESTING: &testing
-<<<<<<< HEAD
-=======
   <<: *common
   RULES_FILE: "/app/tests/test_files/test_suricata.rules"
   CSV_ALERTS: "/app/tests/test_files/test_alerts.csv"
   CSV_RULES: "/app/tests/test_files/test_suricata_rules.csv"
   NEW_CSV_RULES: "/app/tests/test_files/test_new_rules.csv"
   NEW_RULES: "/app/tests/test_files/test_new.rules"
->>>>>>> d21db116366befdb866ac9b45065c3c981d67324
   SQLALCHEMY_DATABASE_URI: ${SQLALCHEMY_DATABASE_URI_TESTING}
