@@ -5,15 +5,21 @@
 # ESTE SCRIPT ES EJECUTADO POR PYTHON
 
 
-FILE='/app/suricata/rules/suricata.rules'
+FILE=$3
+
+test ! -z "$FILE" || FILE='/app/suricata/rules/suricata.rules'
 
 # si no encuentra el SID en el directorio, termina el programa
-grep "$2" "$FILE" || exit
+grep -q "$2" "$FILE" || exit
 
 if [ $1 = "enable" ]; then
 	sed -i '/sid:'$2'/s/^# //' $FILE
+	echo -n "enabled"
 fi
 
 if [ $1 = "disable" ]; then
+  HABILITADA=$(grep "$2" "$FILE" | grep "#")
+  test -z "$HABILITADA" || exit
 	sed -i '/sid:'$2'/s/^/# /' $FILE
+	echo -n "disabled"
 fi
