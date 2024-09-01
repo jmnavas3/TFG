@@ -1,0 +1,91 @@
+hecho:
+		del 2 al 11 de agosto
+		scripts para añadir archivo de reglas y para comentar y descomentar una línea del archivo suricata.rules
+		probar que las imágenes de suricata y python usan el mismo archivo de suricata.rules, esto se puede hacer añadiendo una línea al archivo y buscandola en el otro
+		nuevo modelo de base de datos para las reglas de suricata
+		migracion de la base de datos para dicho modelo
+		ejecutar script de convert_rules_to_csv.sh con el archivo de suricata.rules
+		importar manualmente dicho archivo csv en la base de datos
+			bug encontrado: el script para pasar las reglas a csv no controla las ',' en los mensajes, por lo que da error
+		bug arreglado
+		base repository para paginación y orden
+		ids_rules repository con método get_rules con límite por defecto y paginación
+		ver reglas de suricata (sin filtros ni orden)
+		ver alertas de red
+		guardar en base de datos nuevas alertas de red
+		comprobar flujo de vida de las alertas de suricata desde que se guarda en el fast.log hasta que se guarda en la base de datos (hecho con pandas)
+			bug: script del cronjob no genera bien la fecha de las alertas y pandas no lo puede leer.
+		bug arreglado
+		separar el handler (o listener) que detecta cambios del propio servicio
+			se ha hecho pero demasiado complejo comparado al resto del back-end
+
+		20 al 22 de agosto
+		actualizar AlertsEventHandler (antiguo import csv event handler) para separar el método del listener de la lógica
+		crear clase en infraestructura para conectarse al router mikrotik con la librería RouterOS-api y acceder al recurso de firewall
+		crear dto para generar reglas de firewall y pasarlas al mikrotik
+		guardar en el repo de alertas un array de palabras sospechosas para filtrar en una query (*)
+		obtener las nuevas alertas guardadas y crear reglas de firewall en caso de:
+		- tener prioridad 1
+		- (*) incluir la alerta una de las palabras sospechosas del array
+		testear la clase de conexión con el router
+		testear la creación de reglas de firewall en el router
+
+		23 de agosto (8 días para finalizar el código)
+		nueva migración para añadir columna "reciente" que indique si una alerta es nueva o no
+		método para añadir las direcciones Ip sospechosas a una blacklist
+		seeder general y seeder de alertas para tests de repositorios
+		test de repositorio de alertas
+			bug: el repositorio de alertas contiene como atributo la conexión al Mikrotik. Esta conexión retrasa mucho el resto de la aplicación.
+			Alternativas:
+				- Inyectar la conexión en el repositorio
+				- usarla como servicio de infraestructura
+				- Hacer una clase similar a la clase de base de datos según el contexto de sesión
+		testear router connector y métodos para crear y obtener reglas del firewall
+		24 de agosto
+		testear repositorio de reglas de suricata
+		testear script de activar desactivar reglas de suricata
+		testear script para pasar archivo de reglas a csv
+		testear script para importar regla a base de datos
+		fixtures generados para config, reglas y repo de reglas
+		contenedores de dependencias separados
+		probado caso completo de habilitar y deshabilitar regla, siendo detectado por la imagen de suricata y actualizando las reglas
+			bug: se ha cambiado un poco la lógica seguida hasta ahora. En vez de aplicar los cambios directamente sobre el archivo
+			de suricata.rules, se aplica a una copia, que es la que se comprueba que ha sido actualizada. Esto se ha hecho porque
+			al ejecutar el comando que actualiza las reglas, el IDS sobreescribía el archivo suricata.rules y no detectaba más cambios.
+		25 de agosto
+		modificación de script manager de enable_disable_rules.sh para lanzar excepciones
+		prueba de petición para activar y desactivar las reglas de suricata
+		gunicorn, web server gateway interface (WSGI) añadido con logs
+		modificado dockerfile de producción para levantar directamente el backend cuando se levante el contenedor
+		26 de agosto (5 días restantes)
+		CORS (Cross-Origin Resource Sharing) añadido a la app de flask para que la app de react pueda solicitar los recursos
+		front-end (3 días máx.?)
+			página de alertas simple que hace petición al back-end y muestra la lista de alertas en forma de tabla
+			barra de navegación simple
+			componente "Tabla" reutilizable
+			componente "subir archivo" simple
+		back-end: lógica para guardar un archivo de reglas recibido:
+			nuevo wrapper para validar extensión del archivo
+			AddRuleFileService con inyección de 2 scripts y un csv_import_service como repositorio
+		27 de agosto ( 4 días restantes )
+			nuevo controlador con get y post para subir el archivo
+			AddRuleFileScript testeado
+			Servicio con lógica completa testeado para archivo test_new.rules
+		archivo de reglas "test_new.rules" guardado con éxito en BD y en archivo de reglas activas desde el front
+			común a las páginas de reglas y alertas del IDS:
+				orden de tabla en front (HECHO)
+		28 de agosto ( 3 días restantes )
+				orden de tabla en fron optimizado
+		arreglado bug de script de parseo de reglas a csv
+		cambiar tipo de la petición a POST en lista de reglas
+			tabla de reglas (rule/list)
+			botón para subir archivo de reglas (add_rule)
+		controllers:
+			- la blacklist del firewall
+			- las reglas de firewall del router
+		paginación de tabla en front
+		front-end:
+			página para reglas de suricata
+				botón para desactivar o activar regla (enable_disable)
+			página para firewall
+				tabla de reglas de firewall
