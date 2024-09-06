@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from "react-bootstrap/Button";
 import axios from 'axios';
+import {API_URL} from "../config/config";
 
 function FileUpload() {
     const [file, setFile] = useState(null);
@@ -22,7 +23,7 @@ function FileUpload() {
         formData.append('file', file);
 
         try {
-            const response = await axios.post('http://tfg_server.localhost/api/rules/add_file', formData, {
+            const response = await axios.post(`${API_URL}/api/rules/add_file`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
@@ -45,10 +46,6 @@ function FileUpload() {
                 <Form.Control type="file" onChange={handleFileChange}/>
                 <Button className={"btn-outline-primary d-inline"} variant={"primary"} type="submit">Guardar</Button>
             </Form.Group>
-            {/*<form onSubmit={handleSubmit}>*/}
-            {/*    <input type="file" onChange={handleFileChange}/>*/}
-            {/*    <Button variant={"primary"} type="submit">Guardar</Button>*/}
-            {/*</form>*/}
             <p>{uploadStatus}</p>
         </Form>
     );

@@ -19,11 +19,11 @@ function ListComponent({data, columns, url}) {
     }, [url]);
 
     return (
-        <ListGroup variant="flush">
+        <ListGroup className={"list-group-flush"}>
             {values.map((row) => (
                 <>
                 {columns.map((col, colIndex) => (
-                    <ListGroup.Item key={colIndex}>{row[col.accesor] ? row[col.accesor] : "-"}</ListGroup.Item>
+                    <ListGroup.Item className={"list-group-item-action list-group-item-dark"} key={colIndex}>{row[col.accesor] ? row[col.accesor] : "-"}</ListGroup.Item>
                     ))}
                 </>
             ))}

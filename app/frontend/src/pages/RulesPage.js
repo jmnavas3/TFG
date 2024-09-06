@@ -4,10 +4,12 @@ import FileUpload from "../components/FileUpload";
 import Form from 'react-bootstrap/Form';
 import axios from "axios";
 import Container from "react-bootstrap/Container";
+import {Box} from "@mui/material";
+import {API_URL} from "../config/config";
 
 const RulesTable = () => {
-    const url = 'http://tfg_server.localhost/api/rules/list';
-    const urlEnableDisable = 'http://tfg_server.localhost/api/rules/enable_disable';
+    const url = `${API_URL}/api/rules/list`;
+    const urlEnableDisable = `${API_URL}/api/rules/enable_disable`;
     const defaultValue = [{
         "actualizaciones": 1,
         "descripcion": "SURICATA TLS overflow heartbeat encountered, possible exploit attempt",
@@ -21,11 +23,11 @@ const RulesTable = () => {
         console.log(value)
         const accion = value === "activada" ? "enable" : "disable";
         try {
-                const response = await axios.post(urlEnableDisable, {"sid": identifier, "action": accion});
-                console.log(response.data)
-            } catch (error) {
-                console.error("Error: server unreachable");
-            }
+            const response = await axios.post(urlEnableDisable, {"sid": identifier, "action": accion});
+            console.log(response.data)
+        } catch (error) {
+            console.error("Error: server unreachable");
+        }
     };
 
     const columns = [
@@ -52,11 +54,13 @@ const RulesTable = () => {
 function Rules() {
     return (
         <Container maxWidth={"lg"}>
-            <RulesTable/>
-            <div>
-                <Form.Label>Añadir nuevas reglas</Form.Label>
-                <FileUpload label={"Añadir nuevas reglas"}/>
-            </div>
+            <Box sx={{my: 7}}>
+                <RulesTable/>
+                <div>
+                    <Form.Label>Añadir nuevas reglas</Form.Label>
+                    <FileUpload label={"Añadir nuevas reglas"}/>
+                </div>
+            </Box>
         </Container>
     );
 }

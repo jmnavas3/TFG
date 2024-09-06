@@ -1,9 +1,11 @@
 import '../App.css';
 import Table from '../components/Table'
 import Container from "react-bootstrap/Container";
+import {Box} from "@mui/material";
+import {API_URL} from "../config/config";
 
 const AlertsTable = () => {
-  const url = 'http://tfg_server.localhost/api/alerts/list';
+  const url = `${API_URL}/api/alerts/list`;
   const defaultValue = [{
       "alerta": " ET INFO curl User-Agent Outbound",
       "clasificacion": "Attempted Information Leak",
@@ -42,8 +44,10 @@ const AlertsTable = () => {
 
 function Alerts() {
   return (
-      <Container maxWidth={"lg"}>
-        <AlertsTable />
+      <Container>
+          <Box sx={{my: 7}}>
+              <AlertsTable />
+          </Box>
       </Container>
   );
 }

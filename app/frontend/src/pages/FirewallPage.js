@@ -3,9 +3,11 @@ import Table from '../components/Table'
 import Container from "react-bootstrap/Container";
 import ListComponent from "../components/ListComponent";
 import {Stack} from "react-bootstrap";
+import {Box} from "@mui/material";
+import {API_URL} from "../config/config";
 
 const FirewallTable = () => {
-    const url = 'http://tfg_server.localhost/api/firewall/rules';
+    const url = `${API_URL}/api/firewall/rules`;
     const defaultValue = [{
         "action": "drop",
         "bytes": "0",
@@ -34,7 +36,7 @@ const FirewallTable = () => {
 }
 
 const BlackList = () => {
-    const url = 'http://tfg_server.localhost/api/firewall/blacklist';
+    const url = `${API_URL}/api/firewall/blacklist`;
     const defaultValue = [{
         "address": "192.168.1.0",
         "creation-time": "2024-05-17 09:54:28",
@@ -50,21 +52,23 @@ const BlackList = () => {
     return (
         <>
             <h1>Blacklist</h1>
-            <ListComponent data={defaultValue} columns={columns} url={url} />
+            <ListComponent data={defaultValue} columns={columns} url={url}/>
         </>
     );
 }
 
 function Firewall() {
     return (
-        <Stack direction={"vertical"} gap={2}>
-            <Container className={"p-2 mx-auto"} maxWidth={"lg"}>
-                <BlackList/>
-            </Container>
-            <Container className={"p-2 mx-auto"} maxWidth={"lg"}>
-                <FirewallTable/>
-            </Container>
-        </Stack>
+        <Box sx={{my: 7}}>
+            <Stack direction={"vertical"} gap={2}>
+                <Container className={"p-2 mx-auto"} maxWidth={"lg"}>
+                    <BlackList/>
+                </Container>
+                <Container className={"p-2 mx-auto"} maxWidth={"lg"}>
+                    <FirewallTable/>
+                </Container>
+            </Stack>
+        </Box>
     );
 }
 
