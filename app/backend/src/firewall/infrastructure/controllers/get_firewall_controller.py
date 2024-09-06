@@ -16,6 +16,8 @@ class GetFirewallController(MethodView):
     def post(self, request, **kwargs):
         try:
             rule_list = self.query.execute(request)
+            if not rule_list:
+                return jsonify({'Error': 'Router not connected'}), 400
             return jsonify(rule_list), 200
         except Exception as e:
             print(str(e))

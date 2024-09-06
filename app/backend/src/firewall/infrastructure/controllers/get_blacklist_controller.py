@@ -16,6 +16,8 @@ class GetBlacklistController(MethodView):
     def post(self, request, **kwargs):
         try:
             blacklist = self.query.execute(request)
+            if not blacklist:
+                return jsonify({'Error': 'Router not connected'}), 400
             return jsonify(blacklist), 200
         except Exception as e:
             print(str(e))

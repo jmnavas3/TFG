@@ -15,11 +15,8 @@ class GetRulesRequest:
     }
 
     @staticmethod
-    def generate(page: int = 0, per_page: int = 25, field: str = "", sort_type: str = 'desc'):
+    def generate(page: int = 0, per_page: int = 25, field: str = "id", sort_type: str = 'desc'):
         rule_field = GetRulesRequest.parsed_request.get(field, False)
-
-        if not rule_field:
-            raise ValueError("Invalid field")
 
         return OrderPagination.generate(page=page,
                                         per_page=per_page,

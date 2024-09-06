@@ -1,4 +1,4 @@
-# desc: convierte un archivo .rules a .csv con las columnas rule, sid, rev y msg
+# desc: convierte un archivo .rules a .csv con las columnas rule, sid, rev, msg y active
 # author: jmnavas
 # use: sh convert_rule_to_csv.sh <rules_file> <csv_file>
 
@@ -60,7 +60,7 @@ function trim(s) {
     }
 }' "$RULES_FILE" > $CSV_FILE
 
-# print the number of lines parsed
+# muestra el numero de lineas procesadas
 if [ -f "$CSV_FILE" ]; then
   echo -n "$(wc -l "$CSV_FILE" | grep -o "^[[:digit:]]*")"
 fi

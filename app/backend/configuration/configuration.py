@@ -6,7 +6,7 @@ from yaml.loader import FullLoader
 
 
 class Config:
-    """Clase que obtiene las variables de configuración para el servidor"""
+    """Clase que obtiene las variables de configuración para la API"""
 
     def __init__(self):
         pass
@@ -23,7 +23,8 @@ class Config:
         
         El string debe ser el contenido obtenido de un archivo yaml.
         """
-        
+
+        # almacena el nombre de las variables de entorno (${VAR}) definidas en el archivo yml
         pattern = re.compile(".*?\${(\w+)}.*?")
         match = pattern.findall(str(value))
 

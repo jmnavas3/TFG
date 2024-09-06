@@ -7,6 +7,7 @@ from sqlalchemy.sql.expression import update
 
 from app.backend.database.models.fast import Fast as EntityModel
 from app.backend.src.base.application.dto.pagination import OrderPagination
+from app.backend.src.base.infrastructure.middleware.mikrotik_middleware import MikrotikConnector
 from app.backend.src.base.infrastructure.repository.base_repository import BaseRepository
 
 
@@ -14,7 +15,7 @@ class AlertRepository(BaseRepository):
 
     def __init__(self, session_factory: Callable[..., AbstractContextManager[Session]]) -> None:
         self.session_factory = session_factory
-        # self.router_conn = MikrotikConnector()
+        self.router_conn = MikrotikConnector()
         self.high_severity_alerts = ["DDoS", "SQL", "Injection", "Trojan", "Denial", "GPL ATTACK", "PyCurl"]
         self.private_ranges = ["192.168.", "10.", "172."]
 
@@ -129,7 +130,7 @@ class AlertRepository(BaseRepository):
             messages_blacklist = set(self.get_public_ip(alert.ip_origen, alert.ip_destino) for alert in message_query)
             priority_blacklist.update(messages_blacklist)
 
-            # self.router_conn.add_to_blacklist(blacklist)
+            self.router_conn.add_to_blacklist(priority_blacklist)
             return priority_blacklist
         except Exception as e:
             # print(self.error_message(e))
@@ -148,6 +149,6 @@ class AlertRepository(BaseRepository):
 
     def get_public_ip(self, ip_origen, ip_destino):
         public_ip = ip_origen if self.is_public(ip_origen) else ip_destino
-        # if not self.is_public(ip_destino): check client's ip address
+        # if not self.is_public(ip_destino): check port service
 
         return public_ip
