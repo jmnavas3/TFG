@@ -1,7 +1,6 @@
 import sys
 from pathlib import Path
 
-from app.backend.src.firewall.infrastructure.container.firewall_container import FirewallContainer
 
 path_root = Path(__file__).parents[2]
 sys.path.append(str(path_root))
@@ -11,6 +10,7 @@ from flask_cors import CORS
 from flask_injector import FlaskInjector
 from injector import Injector
 
+from app.backend.src.firewall.infrastructure.container.firewall_container import FirewallContainer
 from app.backend.database.database import Database
 from app.backend.configuration.configuration import Config
 from app.backend.src.alerts.infrastructure.container.alerts_container import AlertsContainer

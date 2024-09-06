@@ -38,11 +38,15 @@ services:
   backend:
     build:
       context: ../
-      dockerfile: Docker/python/Dockerfile
+      dockerfile: Docker/python/prod/Dockerfile
       args:
         - PYTHON_VERSION=${PYTHON_VERSION}
+    depends_on:
+      postgres:
+        condition: service_started
+        restart: true
     tty: true
-    container_name: ${PYTHONCONTAINER}
+    container_name: ${PYTHONCONTAINER_PROD}
     working_dir: ${WORKDIR}
     environment:
       - TZ=Europe/Madrid
@@ -51,9 +55,8 @@ services:
       - ROUTEROS_USER=${ROUTEROS_USER}
       - ROUTEROS_PASS=${ROUTEROS_PASS}
       - SQLALCHEMY_DATABASE_URI=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_SERVICE}:5432/${POSTGRES_DB}
-      - SQLALCHEMY_DATABASE_URI_TESTING=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_SERVICE}:5432/${POSTGRES_DB}_testing
     volumes:
-      - ${ROOT}/app:/app
+      - ${BACKEND}:/app
       - ${ROOT}/config:/config
     labels:
       - "traefik.enable=true"
@@ -61,10 +64,11 @@ services:
       - traefik.backend=${PYTHONCONTAINER}
       - traefik.docker.network=proxy
     <<: *networks
+
   postgres:
     image: 'postgres:latest'
     restart: unless-stopped
-    container_name: ${POSTGRESCONTAINER}
+    container_name: ${POSTGRESCONTAINER_PROD}
     volumes:
       - pgdata:/var/lib/postgresql/data
     environment:
@@ -78,6 +82,34 @@ services:
     <<: *networks
     ports:
       - '5432:5432'
+
+  frontend:
+    build:
+      context: ${FRONTEND}
+      dockerfile: ${ROOT}/Docker/react/prod/Dockerfile
+      args:
+        - NODE_VERSION=${NODE_VERSION}
+        - NPM_VERSION=${NPM_VERSION}
+    depends_on:
+      reverse-proxy:
+        condition: service_started
+        restart: true
+    tty: true
+    container_name: ${NODECONTAINER}
+    working_dir: ${WORKDIR}
+    environment:
+      - REACT_APP_API_URL='http://${PYTHONCONTAINER_PROD}.${DOMAIN}'
+    volumes:
+      - ${FRONTEND}:/app
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.${NODECONTAINER}.rule=Host(`${NODECONTAINER}.${DOMAIN}`)"
+      - "traefik.http.services.${NODECONTAINER}.loadbalancer.server.port=3000"
+      - "traefik.docker.network=proxy"
+      - traefik.backend=${NODECONTAINER}
+    ports:
+      - '3000:3000'
+    <<: *networks
 
 volumes:
   pgdata:

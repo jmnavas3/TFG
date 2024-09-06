@@ -1,0 +1,11 @@
+ARG NODE_VERSION
+ARG NPM_VERSION
+ARG NODE_ENVIRONMENT
+FROM node:$NODE_VERSION
+ENV NODE_ENV=$NODE_ENVIRONMENT
+RUN mkdir /app
+RUN apk update && \
+    apk upgrade && \
+    npm install -g npm@$NPM_VERSION
+
+EXPOSE 3000

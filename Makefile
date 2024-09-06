@@ -10,16 +10,20 @@ endif
 PROJECT_NAME=tfg
 DATABASE=postgres
 PYTHON_VERSION=3.10-rc-buster
-WORKDIR=/app
+NODE_VERSION=20-alpine
+NPM_VERSION=10.8.2
+NODE_ENVIRONMENT=development
+WORKDIR= /app
 
-# variables de comandos
+# variables de docker
+BUILDPROD	= -d --remove-orphans --build
+RUNPROD 	= -f production.yml
 RUNUP 	= --force-recreate --remove-orphans
 RUNUPD 	= --force-recreate -d --remove-orphans
 CDDK 	= cd Docker
-CDIDS 	= cd Docker/suricata
 
 # variables IDS
-INTER			?= wlo1
+INTER			?= $(shell ip route | grep default | awk '{print $5}')
 IDS_IMG_NAME	= "jasonish/suricata"
 IDS_IMG_ID		=$(shell docker ps | grep "jasonish" | grep -Eo "^[[:alnum:]]{12}")
 IDS_IMG_VER		= 7.0.6
@@ -28,7 +32,7 @@ SCRIPTS			= ./app/backend/scripts
 
 
 all: help
-	
+
 
 help:						## Muestra la ayuda
 	@awk 'BEGIN {FS = ":.*##"; printf "\nTargets:\n"} /^[a-zA-Z_-]+:.*?##/ { printf "	\033[36m%-26s\033[0m => %s\n", $$1, $$2 }' $(MAKEFILE_LIST)
@@ -38,6 +42,9 @@ install:					## Instala en entorno .env de Docker
 	export PROJECT_NAME=${PROJECT_NAME} && \
 	export DATABASE=${DATABASE} && \
  	export PYTHON_VERSION=${PYTHON_VERSION} && \
+    export NODE_VERSION=${NODE_VERSION} && \
+    export NPM_VERSION=${NPM_VERSION} && \
+    export NODE_ENVIRONMENT=${NODE_ENVIRONMENT} && \
  	export WORKDIR=${WORKDIR} && \
  	sh install.sh
 
@@ -56,6 +63,18 @@ up-d:						## Levanta los contenedores locales y deja libre la terminal
 deploy: cronjob				## Levanta el IDS, los contenedores e inicia el servidor
 	$(CDDK) && docker compose up $(RUNUPD)
 	docker exec tfg_server sh deploy.sh
+
+proxy:						## Crea la red del proxy-inverso para acceder por una regla de Traefik
+	@docker network ls | grep -q proxy || docker network create proxy
+
+run:
+	$(CDDK) && docker compose $(RUNPROD) up $(BUILDPROD)
+
+backend:
+	$(CDDK) && docker compose $(RUNPROD) up reverse-proxy backend $(BUILDPROD)
+
+end:
+	$(CDDK) && docker compose $(RUNPROD) stop
 
 exec:						## Ingresa por ssh al contenedor principal
 	$(CDDK) && docker exec -ti $(PYTHONCONTAINER) /bin/bash
